@@ -1,4 +1,3 @@
-
 package com.spring.generator.utils;
 
 
@@ -21,19 +20,25 @@ import java.util.*;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
-
+/**
+ * 代码生成器   工具类
+ */
 public class GenUtils {
 
     public static List<String> getTemplates() {
         List<String> templates = new ArrayList<String>();
         templates.add("template/Entity.java.vm");
         templates.add("template/Dao.java.vm");
-        templates.add("template/Dao.xml.vm");
+        templates.add("template/Mapper.xml.vm");
         templates.add("template/Service.java.vm");
         templates.add("template/ServiceImpl.java.vm");
         templates.add("template/Controller.java.vm");
-        templates.add("template/list.html.vm");
         templates.add("template/list.js.vm");
+        templates.add("template/list.ftl.vm");
+        templates.add("template/add.ftl.vm");
+        templates.add("template/edit.ftl.vm");
+        templates.add("template/info.ftl.vm");
+        templates.add("template/common.ftl.vm");
         templates.add("template/menu.sql.vm");
         return templates;
     }
@@ -95,7 +100,7 @@ public class GenUtils {
         Velocity.init(prop);
 
         String mainPath = config.getString("mainPath");
-        mainPath = StringUtils.isBlank(mainPath) ? "com.spring" : mainPath;
+        mainPath = StringUtils.isBlank(mainPath) ? "com.spring.generator" : mainPath;
 
         //封装模板数据
         Map<String, Object> map = new HashMap<>();
@@ -120,17 +125,18 @@ public class GenUtils {
         for (String template : templates) {
             //渲染模板
             StringWriter sw = new StringWriter();
+            System.err.println(template + ":template");
             Template tpl = Velocity.getTemplate(template, "UTF-8");
             tpl.merge(context, sw);
 
             try {
                 //添加到zip
-                zip.putNextEntry(new ZipEntry(getFileName(template, tableEntity.getClassName(), config.getString("package"), config.getString("moduleName"))));
+                zip.putNextEntry(new ZipEntry(getFileName(template, tableEntity.getClassName(), config.getString("package"))));
                 IOUtils.write(sw.toString(), zip, "UTF-8");
                 IOUtils.closeQuietly(sw);
                 zip.closeEntry();
             } catch (IOException e) {
-                throw new RuntimeException("渲染模板失败，表名：" + tableEntity.getTableName(), e);
+                throw new GENException("渲染模板失败，表名：" + tableEntity.getTableName(), e);
             }
         }
     }
@@ -160,55 +166,70 @@ public class GenUtils {
         try {
             return new PropertiesConfiguration("generator.properties");
         } catch (ConfigurationException e) {
-            throw new RuntimeException("获取配置文件失败，", e);
+            throw new GENException("获取配置文件失败，", e);
         }
     }
 
     /**
      * 获取文件名
      */
-    public static String getFileName(String template, String className, String packageName, String moduleName) {
+    public static String getFileName(String template, String className, String packageName) {
         String packagePath = "main" + File.separator + "java" + File.separator;
         if (StringUtils.isNotBlank(packageName)) {
-            packagePath += packageName.replace(".", File.separator) + File.separator + moduleName + File.separator;
+            packagePath += packageName.replace(".", File.separator) + File.separator;
         }
 
         if (template.contains("Entity.java.vm")) {
-            return packagePath + "entity" + File.separator + className + "Entity.java";
+            return packagePath + "entity" + File.separator + className + ".java" ;
         }
 
         if (template.contains("Dao.java.vm")) {
-            return packagePath + "dao" + File.separator + className + "Dao.java";
+            return packagePath + "dao" + File.separator + className + "Dao.java" ;
+        }
+
+        if (template.contains("Mapper.xml.vm")) {
+            return "main" + File.separator + "resources" + File.separator + "mapper"
+                    + File.separator + className + "Mapper.xml" ;
         }
 
         if (template.contains("Service.java.vm")) {
-            return packagePath + "service" + File.separator + className + "Service.java";
+            return packagePath + "service" + File.separator + className + "Service.java" ;
         }
 
         if (template.contains("ServiceImpl.java.vm")) {
-            return packagePath + "service" + File.separator + "impl" + File.separator + className + "ServiceImpl.java";
+            return packagePath + "service" + File.separator + "impl" + File.separator + className + "ServiceImpl.java" ;
         }
 
         if (template.contains("Controller.java.vm")) {
-            return packagePath + "controller" + File.separator + className + "Controller.java";
+            return packagePath + "controller" + File.separator + className + "Controller.java" ;
         }
 
-        if (template.contains("Dao.xml.vm")) {
-            return "main" + File.separator + "resources" + File.separator + "mapper" + File.separator + moduleName + File.separator + className + "Dao.xml";
+        if (template.contains("list.ftl.vm")) {
+            return "main" + File.separator + "resources" + File.separator + "templates"
+                    + File.separator + className.toLowerCase() + File.separator + "list.ftl" ;
         }
-
-        if (template.contains("list.html.vm")) {
-            return "main" + File.separator + "resources" + File.separator + "templates" + File.separator
-                    + "modules" + File.separator + moduleName + File.separator + className.toLowerCase() + ".html";
+        if (template.contains("add.ftl.vm")) {
+            return "main" + File.separator + "resources" + File.separator + "templates"
+                    + File.separator + className.toLowerCase() + File.separator + "add.ftl" ;
         }
-
+        if (template.contains("edit.ftl.vm")) {
+            return "main" + File.separator + "resources" + File.separator + "templates"
+                    + File.separator + className.toLowerCase() + File.separator + "edit.ftl" ;
+        }
+        if (template.contains("info.ftl.vm")) {
+            return "main" + File.separator + "resources" + File.separator + "templates"
+                    + File.separator + className.toLowerCase() + File.separator + "info.ftl" ;
+        }
         if (template.contains("list.js.vm")) {
-            return "main" + File.separator + "resources" + File.separator + "statics" + File.separator + "js" + File.separator
-                    + "modules" + File.separator + moduleName + File.separator + className.toLowerCase() + ".js";
+            return "main" + File.separator + "resources" + File.separator + "templates"
+                    + File.separator + className.toLowerCase() + File.separator + "js" + File.separator + "list.js" ;
         }
-
+        if (template.contains("common.ftl.vm")) {
+            return "main" + File.separator + "resources" + File.separator + "templates"
+                    + File.separator + className.toLowerCase() + File.separator + "common.ftl" ;
+        }
         if (template.contains("menu.sql.vm")) {
-            return className.toLowerCase() + "_menu.sql";
+            return className.toLowerCase() + "_menu.sql" ;
         }
 
         return null;

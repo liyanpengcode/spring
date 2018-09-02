@@ -1,92 +1,156 @@
-package ${package}.${moduleName}.controller;
+package ${package}.controller;
 
-import java.util.Arrays;
+import java.util.List;
 import java.util.Map;
-
-import io.renren.common.validator.ValidatorUtils;
+import com.huifupay.system.common.enumresource.StateEnum;
+import com.huifupay.system.common.log.SysLog;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.Controller;
+import javax.servlet.http.HttpServletRequest;
 
-import ${package}.${moduleName}.entity.${className}Entity;
-import ${package}.${moduleName}.service.${className}Service;
-import ${mainPath}.common.utils.PageUtils;
-import ${mainPath}.common.utils.R;
-
+import ${package}.entity.${className};
+import ${package}.service.${className}Service;
+import ${package}.common.utils.PageUtils;
+import ${package}.common.utils.Query;
+import ${package}.common.utils.R;
 
 
 /**
  * ${comments}
- *
+ * 
  * @author ${author}
  * @email ${email}
  * @date ${datetime}
  */
-@RestController
-@RequestMapping("${moduleName}/${pathName}")
+@Controller
+@RequestMapping("${pathName}")
 public class ${className}Controller {
-    @Autowired
-    private ${className}Service ${classname}Service;
-
+	@Autowired
+	private ${className}Service ${classname}Service;
+	
     /**
-     * 列表
+     * 跳转到列表页
      */
     @RequestMapping("/list")
-    @RequiresPermissions("${moduleName}:${pathName}:list")
-    public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = ${classname}Service.queryPage(params);
-
-        return R.ok().put("page", page);
+    @RequiresPermissions("${pathName}:list")
+    public String list() {
+        return "${pathName}/list";
     }
+    
+	/**
+	 * 列表数据
+	 */
+    @ResponseBody
+	@RequestMapping("/listData")
+	@RequiresPermissions("${pathName}:list")
+	public Response listData(@RequestParam Map<String, Object> params){
+		//查询列表数据
+        Query query = new Query(params);
 
+		List<${className}> ${classname}List = ${classname}Service.getList(query);
+		int total = ${classname}Service.getCount(query);
+		
+		PageUtils pageUtil = new PageUtils(${classname}List, total, query.getLimit(), query.getPage());
+		
+		return Response.ok().put("page", pageUtil);
+	}
 
     /**
-     * 信息
-     */
+     * 跳转到新增页面
+     **/
+    @RequestMapping("/add")
+    @RequiresPermissions("${pathName}:save")
+    public String add(){
+        return "${pathName}/add";
+    }
+
+    /**
+     *   跳转到修改页面
+     **/
+    @RequestMapping("/edit/{id}")
+    @RequiresPermissions("${pathName}:update")
+    public String edit(Model model, @PathVariable("id") String id){
+		${className} ${classname} = ${classname}Service.get(id);
+        model.addAttribute("model",${classname});
+        return "${pathName}/edit";
+    }
+
+	/**
+	 * 信息
+	 */
+    @ResponseBody
     @RequestMapping("/info/{${pk.attrname}}")
-    @RequiresPermissions("${moduleName}:${pathName}:info")
-    public R info(@PathVariable("${pk.attrname}") ${pk.attrType} ${pk.attrname}){
-        ${className}Entity ${classname} = ${classname}Service.selectById(${pk.attrname});
-
-        return R.ok().put("${classname}", ${classname});
+    @RequiresPermissions("${pathName}:info")
+    public Response info(@PathVariable("${pk.attrname}") ${pk.attrType} ${pk.attrname}){
+        ${className} ${classname} = ${classname}Service.get(${pk.attrname});
+        return Response.ok().put("${classname}", ${classname});
     }
 
     /**
-     * 保存
-     */
-    @RequestMapping("/save")
-    @RequiresPermissions("${moduleName}:${pathName}:save")
-    public R save(@RequestBody ${className}Entity ${classname}){
-        ${classname}Service.insert(${classname});
-
-        return R.ok();
-    }
+	 * 保存
+	 */
+    @ResponseBody
+    @SysLog("保存${comments}")
+	@RequestMapping("/save")
+	@RequiresPermissions("${pathName}:save")
+	public Response save(@RequestBody ${className} ${classname}){
+		${classname}Service.save(${classname});
+		
+		return Response.ok();
+	}
+	
+	/**
+	 * 修改
+	 */
+    @ResponseBody
+    @SysLog("修改${comments}")
+	@RequestMapping("/update")
+	@RequiresPermissions("${pathName}:update")
+	public Response update(@RequestBody ${className} ${classname}){
+		${classname}Service.update(${classname});
+		
+		return Response.ok();
+	}
 
     /**
-     * 修改
+     * 启用
      */
-    @RequestMapping("/update")
-    @RequiresPermissions("${moduleName}:${pathName}:update")
-    public R update(@RequestBody ${className}Entity ${classname}){
-        ValidatorUtils.validateEntity(${classname});
-        ${classname}Service.updateAllColumnById(${classname});//全部更新
-        
-        return R.ok();
+    @ResponseBody
+    @SysLog("启用${comments}")
+    @RequestMapping("/enable")
+    @RequiresPermissions("${pathName}:update")
+    public Response enable(@RequestBody String[] ids){
+        String stateValue=StateEnum.ENABLE.getCode();
+		${classname}Service.updateState(ids,stateValue);
+        return Response.ok();
     }
-
     /**
-     * 删除
+     * 禁用
      */
-    @RequestMapping("/delete")
-    @RequiresPermissions("${moduleName}:${pathName}:delete")
-    public R delete(@RequestBody ${pk.attrType}[] ${pk.attrname}s){
-        ${classname}Service.deleteBatchIds(Arrays.asList(${pk.attrname}s));
-
-        return R.ok();
+    @ResponseBody
+    @SysLog("禁用${comments}")
+    @RequestMapping("/limit")
+    @RequiresPermissions("${pathName}:update")
+    public Response limit(@RequestBody String[] ids){
+        String stateValue=StateEnum.LIMIT.getCode();
+		${classname}Service.updateState(ids,stateValue);
+        return Response.ok();
     }
-
+	
+	/**
+	 * 删除
+	 */
+    @ResponseBody
+    @SysLog("删除${comments}")
+	@RequestMapping("/delete")
+	@RequiresPermissions("${pathName}:delete")
+	public Response delete(@RequestBody ${pk.attrType}[] ${pk.attrname}s){
+		${classname}Service.deleteBatch(${pk.attrname}s);
+		
+		return Response.ok();
+	}
+	
 }
