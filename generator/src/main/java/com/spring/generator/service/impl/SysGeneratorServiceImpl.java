@@ -12,7 +12,6 @@ import java.io.ByteArrayOutputStream;
 import java.util.List;
 import java.util.Map;
 import java.util.zip.ZipOutputStream;
-
 @Service("sysGeneratorService")
 public class SysGeneratorServiceImpl implements SysGeneratorService {
     @Autowired

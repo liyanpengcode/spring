@@ -180,56 +180,56 @@ public class GenUtils {
         }
 
         if (template.contains("Entity.java.vm")) {
-            return packagePath + "entity" + File.separator + className + ".java" ;
+            return packagePath + "entity" + File.separator + className + ".java";
         }
 
         if (template.contains("Dao.java.vm")) {
-            return packagePath + "dao" + File.separator + className + "Dao.java" ;
+            return packagePath + "dao" + File.separator + className + "Dao.java";
         }
 
         if (template.contains("Mapper.xml.vm")) {
             return "main" + File.separator + "resources" + File.separator + "mapper"
-                    + File.separator + className + "Mapper.xml" ;
+                    + File.separator + className + "Mapper.xml";
         }
 
         if (template.contains("Service.java.vm")) {
-            return packagePath + "service" + File.separator + className + "Service.java" ;
+            return packagePath + "service" + File.separator + className + "Service.java";
         }
 
         if (template.contains("ServiceImpl.java.vm")) {
-            return packagePath + "service" + File.separator + "impl" + File.separator + className + "ServiceImpl.java" ;
+            return packagePath + "service" + File.separator + "impl" + File.separator + className + "ServiceImpl.java";
         }
 
         if (template.contains("Controller.java.vm")) {
-            return packagePath + "controller" + File.separator + className + "Controller.java" ;
+            return packagePath + "controller" + File.separator + className + "Controller.java";
         }
 
         if (template.contains("list.ftl.vm")) {
             return "main" + File.separator + "resources" + File.separator + "templates"
-                    + File.separator + className.toLowerCase() + File.separator + "list.ftl" ;
+                    + File.separator + className.toLowerCase() + File.separator + "list.ftl";
         }
         if (template.contains("add.ftl.vm")) {
             return "main" + File.separator + "resources" + File.separator + "templates"
-                    + File.separator + className.toLowerCase() + File.separator + "add.ftl" ;
+                    + File.separator + className.toLowerCase() + File.separator + "add.ftl";
         }
         if (template.contains("edit.ftl.vm")) {
             return "main" + File.separator + "resources" + File.separator + "templates"
-                    + File.separator + className.toLowerCase() + File.separator + "edit.ftl" ;
+                    + File.separator + className.toLowerCase() + File.separator + "edit.ftl";
         }
         if (template.contains("info.ftl.vm")) {
             return "main" + File.separator + "resources" + File.separator + "templates"
-                    + File.separator + className.toLowerCase() + File.separator + "info.ftl" ;
+                    + File.separator + className.toLowerCase() + File.separator + "info.ftl";
         }
         if (template.contains("list.js.vm")) {
             return "main" + File.separator + "resources" + File.separator + "templates"
-                    + File.separator + className.toLowerCase() + File.separator + "js" + File.separator + "list.js" ;
+                    + File.separator + className.toLowerCase() + File.separator + "js" + File.separator + "list.js";
         }
         if (template.contains("common.ftl.vm")) {
             return "main" + File.separator + "resources" + File.separator + "templates"
-                    + File.separator + className.toLowerCase() + File.separator + "common.ftl" ;
+                    + File.separator + className.toLowerCase() + File.separator + "common.ftl";
         }
         if (template.contains("menu.sql.vm")) {
-            return className.toLowerCase() + "_menu.sql" ;
+            return className.toLowerCase() + "_menu.sql";
         }
 
         return null;
