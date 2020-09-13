@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- *
+ * -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
  */
 public class HeapOOMTests {
 

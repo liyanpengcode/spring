@@ -23,6 +23,7 @@
         <module>shiro</module>
         <module>design-patterns</module>
         <module>data-structure</module>
+        <module>javase</module>
     </modules>
 
     <properties>
@@ -148,6 +149,13 @@
     </dependencyManagement>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.openjdk.jol/jol-core -->
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.13</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
