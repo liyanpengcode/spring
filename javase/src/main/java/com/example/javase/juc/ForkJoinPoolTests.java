@@ -1,6 +1,5 @@
 package com.example.javase.juc;
 
-import org.junit.Test;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -31,7 +30,6 @@ public class ForkJoinPoolTests {
     }
 
     //java8 新特性
-    @Test
     public void test2() {
         Instant start = Instant.now();
 

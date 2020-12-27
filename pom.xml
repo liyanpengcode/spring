@@ -17,6 +17,7 @@
         <version>2.3.0.RELEASE</version>
         <relativePath/>
     </parent>
+
     <modules>
         <module>commons</module>
         <module>security</module>
@@ -27,20 +28,22 @@
     </modules>
 
     <properties>
+        <!-- Project revision -->
+        <revision>2.2.1.RELEASE</revision>
+
+        <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
 
-        <spring-cloud-commons.version>2.2.3.RELEASE</spring-cloud-commons.version>
-        <spring-cloud-netflix.version>2.2.3.RELEASE</spring-cloud-netflix.version>
-        <spring-cloud-openfeign.version>2.2.3.RELEASE</spring-cloud-openfeign.version>
-        <spring-cloud-bus.version>2.2.1.RELEASE</spring-cloud-bus.version>
-        <spring-cloud-gateway.version>2.2.3.RELEASE</spring-cloud-gateway.version>
-        <spring-cloud-stream.version>Horsham.SR3</spring-cloud-stream.version>
-        <spring-cloud-consul.version>2.2.3.RELEASE</spring-cloud-consul.version>
-        <spring-cloud-config.version>2.2.3.RELEASE</spring-cloud-config.version>
-        <spring-cloud-zookeeper.version>2.2.2.RELEASE</spring-cloud-zookeeper.version>
-
+        <spring-cloud-commons.version>2.2.5.RELEASE</spring-cloud-commons.version>
+        <spring-cloud-netflix.version>2.2.5.RELEASE</spring-cloud-netflix.version>
+        <spring-cloud-openfeign.version>2.2.5.RELEASE</spring-cloud-openfeign.version>
+        <spring-cloud-bus.version>2.2.3.RELEASE</spring-cloud-bus.version>
+        <spring-cloud-gateway.version>2.2.5.RELEASE</spring-cloud-gateway.version>
+        <spring-cloud-stream.version>Horsham.SR8</spring-cloud-stream.version>
+        <spring-cloud-consul.version>2.2.4.RELEASE</spring-cloud-consul.version>
+        <spring-cloud-config.version>2.2.5.RELEASE</spring-cloud-config.version>
+        <spring-cloud-zookeeper.version>2.2.3.RELEASE</spring-cloud-zookeeper.version>
     </properties>
 
     <dependencyManagement>
@@ -55,13 +58,13 @@
                 <scope>import</scope>
             </dependency>
 
-            <!--            <dependency>-->
-            <!--                <groupId>com.alibaba.cloud</groupId>-->
-            <!--                <artifactId>spring-cloud-alibaba-dependencies</artifactId>-->
-            <!--                <version>${project.version}</version>-->
-            <!--                <type>pom</type>-->
-            <!--                <scope>import</scope>-->
-            <!--            </dependency>-->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${revision}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
 
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -71,19 +74,13 @@
                 <scope>import</scope>
             </dependency>
 
-            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-test-support -->
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-test-support</artifactId>
-                <version>${spring-cloud-commons.version}</version>
-                <scope>test</scope>
-            </dependency>
-            <!-- https://mvnrepository.com/artifact/com.hadoop.gplcompression/hadoop-lzo -->
-            <dependency>
-                <groupId>com.hadoop.gplcompression</groupId>
-                <artifactId>hadoop-lzo</artifactId>
-                <version>0.4.20</version>
-            </dependency>
+
+            <!--            &lt;!&ndash; https://mvnrepository.com/artifact/com.hadoop.gplcompression/hadoop-lzo &ndash;&gt;-->
+            <!--            <dependency>-->
+            <!--                <groupId>com.hadoop.gplcompression</groupId>-->
+            <!--                <artifactId>hadoop-lzo</artifactId>-->
+            <!--                <version>0.4.20</version>-->
+            <!--            </dependency>-->
 
 
             <dependency>
@@ -150,18 +147,17 @@
                 <scope>import</scope>
             </dependency>
 
+            <!-- https://mvnrepository.com/artifact/org.openjdk.jol/jol-core -->
+            <dependency>
+                <groupId>org.openjdk.jol</groupId>
+                <artifactId>jol-core</artifactId>
+                <version>0.13</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
-
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.openjdk.jol/jol-core -->
-        <dependency>
-            <groupId>org.openjdk.jol</groupId>
-            <artifactId>jol-core</artifactId>
-            <version>0.13</version>
-        </dependency>
-
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -173,11 +169,24 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.openjdk.jol/jol-core -->
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-core</artifactId>
+            <version>0.13</version>
+        </dependency>
+
     </dependencies>
 
     <build>
