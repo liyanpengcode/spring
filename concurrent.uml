@@ -1,0 +1,2291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.concurrent</OriginalElement>
+  <nodes>
+    <node x="18674.031268150327" y="13065.0">java.util.concurrent.CompletableFuture.UniApply</node>
+    <node x="68335.02083333334" y="13021.0">java.util.concurrent.ConcurrentSkipListMap.Iter</node>
+    <node x="64275.0625" y="13021.0">java.util.concurrent.ConcurrentHashMap.ValueSpliterator</node>
+    <node x="1361.0" y="16910.0">java.util.concurrent.CopyOnWriteArrayList.COWSubListIterator</node>
+    <node x="64656.0625" y="12856.0">java.util.concurrent.ConcurrentHashMap.TreeBin</node>
+    <node x="59845.81250000001" y="12989.0">java.util.concurrent.ConcurrentHashMap.MapReduceKeysToLongTask</node>
+    <node x="3749.25" y="13086.0">java.util.concurrent.SynchronousQueue.Transferer</node>
+    <node x="61963.06250000001" y="14508.0">java.util.concurrent.ConcurrentHashMap.KeyIterator</node>
+    <node x="27352.781268150327" y="353.0">java.util.concurrent.Future</node>
+    <node x="35661.03854417003" y="7052.0">java.util.concurrent.CountedCompleter</node>
+    <node x="27039.038544170027" y="13107.0">java.util.concurrent.RunnableScheduledFuture</node>
+    <node x="66183.1875" y="15124.0">java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapKeyIterator</node>
+    <node x="513.5" y="12977.0">java.util.concurrent.PriorityBlockingQueue.PBQSpliterator</node>
+    <node x="538.0" y="14333.0">java.util.concurrent.LinkedTransferQueue.Node</node>
+    <node x="17332.031268150327" y="13021.0">java.util.concurrent.DelayQueue.Itr</node>
+    <node x="68033.55104417003" y="7269.0">java.util.concurrent.ConcurrentNavigableMap</node>
+    <node x="26131.937500000007" y="7294.0">java.util.concurrent.RecursiveAction</node>
+    <node x="2992.6979348169953" y="7258.0">java.util.concurrent.BlockingQueue</node>
+    <node x="6189.0" y="15427.0">java.util.concurrent.CopyOnWriteArraySet</node>
+    <node x="32654.812500000007" y="12977.0">java.util.concurrent.ConcurrentHashMap.EntrySetView</node>
+    <node x="0.0" y="14519.0">java.util.concurrent.ArrayBlockingQueue.Itrs.Node</node>
+    <node x="1252.75" y="10179.0">java.util.concurrent.ArrayBlockingQueue</node>
+    <node x="11869.281268150331" y="10521.0">java.util.concurrent.CountDownLatch</node>
+    <node x="18916.93363757221" y="0.0">java.util.concurrent.CompletionStage</node>
+    <node x="19393.156268150327" y="7283.0">java.util.concurrent.CompletableFuture.AsyncSupply</node>
+    <node x="44724.81250000001" y="13054.0">java.util.concurrent.ConcurrentHashMap.ForEachTransformedEntryTask</node>
+    <node x="640.5" y="17042.0">java.util.concurrent.ConcurrentLinkedDeque.Node</node>
+    <node x="1353.5" y="15427.0">java.util.concurrent.CopyOnWriteArrayList</node>
+    <node x="53563.98854417003" y="10563.0">java.util.concurrent.ConcurrentHashMap.TableStack</node>
+    <node x="33054.81250000001" y="12989.0">java.util.concurrent.ConcurrentHashMap.MapReduceValuesToLongTask</node>
+    <node x="3173.8333333333358" y="15091.0">java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue.Itr</node>
+    <node x="62969.0625" y="14519.0">java.util.concurrent.ConcurrentHashMap.EntryIterator</node>
+    <node x="10691.625000000007" y="4936.0">java.util.concurrent.CompletableFuture.ThreadPerTaskExecutor</node>
+    <node x="28441.488544170024" y="14508.0">java.util.concurrent.FutureTask.WaitNode</node>
+    <node x="11554.281268150331" y="10564.0">java.util.concurrent.CompletableFuture.CoCompletion</node>
+    <node x="1573.75" y="14497.0">java.util.concurrent.LinkedBlockingDeque.Node</node>
+    <node x="17517.031268150327" y="13065.0">java.util.concurrent.CompletableFuture.UniExceptionally</node>
+    <node x="2395.0" y="13010.0">java.util.concurrent.LinkedBlockingQueue.Itr</node>
+    <node x="45085.06250000001" y="10488.0">java.util.concurrent.ConcurrentHashMap.MapEntry</node>
+    <node x="45681.81250000001" y="13054.0">java.util.concurrent.ConcurrentHashMap.ForEachTransformedKeyTask</node>
+    <node x="8321.93437750336" y="10584.0">java.util.concurrent.ScheduledExecutorService</node>
+    <node x="63906.0625" y="13021.0">java.util.concurrent.ConcurrentHashMap.KeySpliterator</node>
+    <node x="62584.81250000001" y="13032.0">java.util.concurrent.ConcurrentHashMap.BaseIterator</node>
+    <node x="2889.0" y="16888.0">java.util.concurrent.ThreadLocalRandom.RandomLongsSpliterator</node>
+    <node x="18854.562500000007" y="14498.0">java.util.concurrent.Semaphore.NonfairSync</node>
+    <node x="7528.406268150331" y="13086.0">java.util.concurrent.ThreadPoolExecutor.DiscardPolicy</node>
+    <node x="22090.312500000007" y="14519.0">java.util.concurrent.CompletableFuture.OrRelay</node>
+    <node x="37668.81250000001" y="12989.0">java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToIntTask</node>
+    <node x="3051.0" y="10309.0">java.util.concurrent.BlockingDeque</node>
+    <node x="69890.52083333334" y="14519.0">java.util.concurrent.ConcurrentSkipListMap.HeadIndex</node>
+    <node x="19305.312500000007" y="14498.0">java.util.concurrent.CompletableFuture.OrApply</node>
+    <node x="7697.0" y="15427.0">java.util.concurrent.BrokenBarrierException</node>
+    <node x="376.5" y="17086.0">java.util.concurrent.ConcurrentLinkedDeque.AbstractItr</node>
+    <node x="633.0625" y="17471.0">java.util.concurrent.ConcurrentLinkedDeque.Itr</node>
+    <node x="7352.0" y="15427.0">java.util.concurrent.ExecutionException</node>
+    <node x="18294.031268150327" y="12461.0">java.util.concurrent.Phaser</node>
+    <node x="65857.0625" y="13086.0">java.util.concurrent.ConcurrentHashMap.ReservationNode</node>
+    <node x="100.0625" y="17471.0">java.util.concurrent.ConcurrentLinkedDeque.DescendingItr</node>
+    <node x="4678.0" y="15427.0">java.util.concurrent.Exchanger</node>
+    <node x="68619.27083333334" y="14519.0">java.util.concurrent.ConcurrentSkipListMap.KeyIterator</node>
+    <node x="66058.3125" y="10596.0">java.util.concurrent.ConcurrentHashMap.CounterCell</node>
+    <node x="8370.406268150331" y="13086.0">java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy</node>
+    <node x="27336.781268150327" y="7283.0">java.util.concurrent.RecursiveTask</node>
+    <node x="24824.312500000007" y="14498.0">java.util.concurrent.CompletableFuture.OrAccept</node>
+    <node x="9392.101044170024" y="10433.0">java.util.concurrent.Executors.DelegatedExecutorService</node>
+    <node x="12290.864601483663" y="4969.0">java.util.concurrent.CompletableFuture.AsynchronousCompletionTask</node>
+    <node x="31536.812500000007" y="12989.0">java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToIntTask</node>
+    <node x="56586.81250000001" y="13011.0">java.util.concurrent.ConcurrentHashMap.ReduceKeysTask</node>
+    <node x="25781.437500000007" y="10573.0">java.util.concurrent.CompletionService</node>
+    <node x="648.75" y="10069.0">java.util.concurrent.PriorityBlockingQueue</node>
+    <node x="12665.906268150331" y="13043.0">java.util.concurrent.CountDownLatch.Sync</node>
+    <node x="5434.934377503352" y="14377.0">java.util.concurrent.SynchronousQueue.TransferQueue</node>
+    <node x="172.0" y="14410.0">java.util.concurrent.LinkedTransferQueue.LTQSpliterator</node>
+    <node x="42289.81250000001" y="13065.0">java.util.concurrent.ConcurrentHashMap.ForEachMappingTask</node>
+    <node x="10901.281268150331" y="10564.0">java.util.concurrent.Executors.PrivilegedCallable</node>
+    <node x="2328.5093775033565" y="15145.0">java.util.concurrent.LinkedBlockingDeque.Itr</node>
+    <node x="11234.281268150331" y="7368.0">java.util.concurrent.ThreadFactory</node>
+    <node x="23535.218768150327" y="7368.0">java.util.concurrent.Delayed</node>
+    <node x="5022.934377503352" y="14519.0">java.util.concurrent.SynchronousQueue.FifoWaitQueue</node>
+    <node x="46612.81250000001" y="12989.0">java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToDoubleTask</node>
+    <node x="3603.0" y="16206.0">java.util.concurrent.ConcurrentLinkedQueue.CLQSpliterator</node>
+    <node x="13620.906268150331" y="13044.0">java.util.concurrent.ForkJoinPool.EmptyTask</node>
+    <node x="28378.812500000007" y="12999.0">java.util.concurrent.ConcurrentHashMap.ValuesView</node>
+    <node x="10195.281268150331" y="10564.0">java.util.concurrent.Executors.RunnableAdapter</node>
+    <node x="12927.906268150331" y="13065.0">java.util.concurrent.CompletableFuture.UniAccept</node>
+    <node x="3669.75" y="10202.0">java.util.concurrent.SynchronousQueue</node>
+    <node x="38883.81250000001" y="13011.0">java.util.concurrent.ConcurrentHashMap.ReduceEntriesTask</node>
+    <node x="5228.934377503352" y="14519.0">java.util.concurrent.SynchronousQueue.LifoWaitQueue</node>
+    <node x="49025.433637572205" y="5941.0">java.util.concurrent.ConcurrentHashMap</node>
+    <node x="6877.406268150331" y="12736.0">java.util.concurrent.ScheduledThreadPoolExecutor</node>
+    <node x="5135.5" y="15898.0">java.util.concurrent.ForkJoinWorkerThread.InnocuousForkJoinWorkerThread</node>
+    <node x="5467.934377503352" y="15025.0">java.util.concurrent.SynchronousQueue.TransferQueue.QNode</node>
+    <node x="27268.038544170027" y="13022.0">java.util.concurrent.ForkJoinTask.AdaptedRunnableAction</node>
+    <node x="66465.1875" y="15145.0">java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapValueIterator</node>
+    <node x="3969.0" y="16239.0">java.util.concurrent.ConcurrentLinkedQueue.Itr</node>
+    <node x="25662.937500000007" y="12966.0">java.util.concurrent.ExecutorCompletionService</node>
+    <node x="68729.52083333334" y="12769.0">java.util.concurrent.ConcurrentSkipListMap.KeySet</node>
+    <node x="68264.4375" y="14519.0">java.util.concurrent.ConcurrentSkipListMap.ValueIterator</node>
+    <node x="7570.309377503359" y="7248.0">java.util.concurrent.AbstractExecutorService</node>
+    <node x="1858.0" y="12450.0">java.util.concurrent.LinkedTransferQueue</node>
+    <node x="60992.81250000001" y="12989.0">java.util.concurrent.ConcurrentHashMap.MapReduceValuesToIntTask</node>
+    <node x="19138.68363757221" y="917.0">java.util.concurrent.CompletableFuture</node>
+    <node x="1727.0" y="16800.0">java.util.concurrent.CopyOnWriteArrayList.COWSubList</node>
+    <node x="2467.0" y="16888.0">java.util.concurrent.ThreadLocalRandom.RandomDoublesSpliterator</node>
+    <node x="58579.79508025857" y="4847.0">java.util.concurrent.ConcurrentMap</node>
+    <node x="67175.4375" y="14465.0">java.util.concurrent.ConcurrentSkipListMap.EntrySpliterator</node>
+    <node x="3062.3333333333358" y="14158.0">java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue</node>
+    <node x="18629.562500000007" y="14498.0">java.util.concurrent.Semaphore.FairSync</node>
+    <node x="17538.312500000007" y="10333.0">java.util.concurrent.DelayQueue</node>
+    <node x="3290.0" y="16228.0">java.util.concurrent.ConcurrentLinkedQueue.Node</node>
+    <node x="70205.52083333334" y="12978.0">java.util.concurrent.ConcurrentSkipListMap.Values</node>
+    <node x="7991.500000000007" y="4826.0">java.util.concurrent.ExecutorService</node>
+    <node x="49840.81250000001" y="13011.0">java.util.concurrent.ConcurrentHashMap.ReduceValuesTask</node>
+    <node x="27820.487500000007" y="10617.0">java.util.concurrent.RunnableFuture</node>
+    <node x="67724.4375" y="14465.0">java.util.concurrent.ConcurrentSkipListMap.KeySpliterator</node>
+    <node x="36426.81250000001" y="13000.0">java.util.concurrent.ConcurrentHashMap.MapReduceKeysTask</node>
+    <node x="18509.687500000007" y="10356.0">java.util.concurrent.Semaphore</node>
+    <node x="8540.0" y="15427.0">java.util.concurrent.atomic</node>
+    <node x="310.0" y="15427.0">java.util.concurrent.ConcurrentLinkedDeque</node>
+    <node x="4211.000000000004" y="13107.0">java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory</node>
+    <node x="4188.0" y="15427.0">java.util.concurrent.ConcurrentSkipListSet</node>
+    <node x="5956.5" y="15942.0">java.util.concurrent.CyclicBarrier.Generation</node>
+    <node x="36649.909681742225" y="7314.0">java.util.concurrent.ForkJoinTask.ExceptionNode</node>
+    <node x="31185.812500000007" y="12945.0">java.util.concurrent.ConcurrentHashMap.KeySetView</node>
+    <node x="39952.81250000001" y="13033.0">java.util.concurrent.ConcurrentHashMap.SearchMappingsTask</node>
+    <node x="2235.0" y="13075.0">java.util.concurrent.LinkedBlockingQueue.Node</node>
+    <node x="19637.031268150327" y="13086.0">java.util.concurrent.CompletableFuture.UniRelay</node>
+    <node x="24081.312500000007" y="14498.0">java.util.concurrent.CompletableFuture.OrRun</node>
+    <node x="2659.0" y="12966.0">java.util.concurrent.LinkedBlockingQueue.LBQSpliterator</node>
+    <node x="11302.70833333334" y="14422.0">java.util.concurrent.CompletableFuture.Signaller</node>
+    <node x="4850.5" y="16120.0">java.util.concurrent.Exchanger.Participant</node>
+    <node x="48574.81250000001" y="13000.0">java.util.concurrent.ConcurrentHashMap.MapReduceValuesTask</node>
+    <node x="26347.788544170027" y="14367.0">java.util.concurrent.ScheduledThreadPoolExecutor.ScheduledFutureTask</node>
+    <node x="66206.6875" y="14388.0">java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapIter</node>
+    <node x="1149.5" y="12834.0">java.util.concurrent.ArrayBlockingQueue.Itr</node>
+    <node x="6622.455210836692" y="10617.0">java.util.concurrent.RejectedExecutionHandler</node>
+    <node x="66982.8086375722" y="13021.0">java.util.concurrent.ConcurrentSkipListMap.CSLMSpliterator</node>
+    <node x="9785.406268150331" y="13086.0">java.util.concurrent.Executors.FinalizableDelegatedExecutorService</node>
+    <node x="28710.812500000007" y="12989.0">java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToLongTask</node>
+    <node x="995.0" y="16921.0">java.util.concurrent.CopyOnWriteArrayList.COWIterator</node>
+    <node x="69108.52083333334" y="12956.0">java.util.concurrent.ConcurrentSkipListMap.EntrySet</node>
+    <node x="6665.434377503359" y="14519.0">java.util.concurrent.ForkJoinPool.DefaultForkJoinWorkerThreadFactory</node>
+    <node x="53205.81250000001" y="12989.0">java.util.concurrent.ConcurrentHashMap.MapReduceKeysToDoubleTask</node>
+    <node x="7992.0" y="15427.0">java.util.concurrent.CancellationException</node>
+    <node x="13826.90626815033" y="13065.0">java.util.concurrent.CompletableFuture.UniRun</node>
+    <node x="14415.90626815033" y="13065.0">java.util.concurrent.CompletableFuture.UniHandle</node>
+    <node x="9833.101044170024" y="7116.0">java.util.concurrent.Executors</node>
+    <node x="16973.937500000007" y="10542.0">java.util.concurrent.CompletableFuture.UniCompletion</node>
+    <node x="69835.52083333334" y="12988.0">java.util.concurrent.ConcurrentSkipListMap.Index</node>
+    <node x="29900.812500000007" y="13000.0">java.util.concurrent.ConcurrentHashMap.MapReduceEntriesTask</node>
+    <node x="12128.281268150331" y="7272.0">java.util.concurrent.CompletableFuture.Completion</node>
+    <node x="5531.458333333339" y="13086.0">java.util.concurrent.ForkJoinPool.ManagedBlocker</node>
+    <node x="10924.625000000007" y="4936.0">java.util.concurrent.CompletableFuture.AltResult</node>
+    <node x="65173.0625" y="13065.0">java.util.concurrent.ConcurrentHashMap.ForwardingNode</node>
+    <node x="66107.0625" y="12329.0">java.util.concurrent.ConcurrentSkipListMap.SubMap</node>
+    <node x="5061.0" y="15427.0">java.util.concurrent.ForkJoinWorkerThread</node>
+    <node x="28022.812500000007" y="12725.0">java.util.concurrent.FutureTask</node>
+    <node x="10647.101044170027" y="7368.0">java.util.concurrent.Callable</node>
+    <node x="22724.312500000007" y="14519.0">java.util.concurrent.CompletableFuture.BiRelay</node>
+    <node x="10463.281268150331" y="10553.0">java.util.concurrent.Executors.PrivilegedCallableUsingCurrentClassLoader</node>
+    <node x="5808.434377503352" y="15025.0">java.util.concurrent.SynchronousQueue.TransferStack.SNode</node>
+    <node x="22921.656268150327" y="13086.0">java.util.concurrent.CompletableFuture.BiCompletion</node>
+    <node x="2499.5" y="15427.0">java.util.concurrent.ThreadLocalRandom</node>
+    <node x="1011.75" y="14432.0">java.util.concurrent.LinkedTransferQueue.Itr</node>
+    <node x="9212.406268150331" y="13032.0">java.util.concurrent.Executors.DelegatedScheduledExecutorService</node>
+    <node x="10594.875000000007" y="2410.0">java.util.concurrent.Executor</node>
+    <node x="11175.281268150331" y="10542.0">java.util.concurrent.Executors.DefaultThreadFactory</node>
+    <node x="40907.81250000001" y="13000.0">java.util.concurrent.ConcurrentHashMap.MapReduceMappingsTask</node>
+    <node x="1450.5" y="12966.0">java.util.concurrent.ArrayBlockingQueue.Itrs</node>
+    <node x="51846.81250000001" y="12989.0">java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToDoubleTask</node>
+    <node x="69463.52083333334" y="12922.0">java.util.concurrent.ConcurrentSkipListMap.Node</node>
+    <node x="5781.934377503352" y="14377.0">java.util.concurrent.SynchronousQueue.TransferStack</node>
+    <node x="20196.312500000007" y="14498.0">java.util.concurrent.CompletableFuture.BiApply</node>
+    <node x="4660.333333333339" y="9168.0">java.util.concurrent.ForkJoinPool</node>
+    <node x="50805.81250000001" y="13054.0">java.util.concurrent.ConcurrentHashMap.ForEachTransformedMappingTask</node>
+    <node x="3025.0" y="12373.0">java.util.concurrent.LinkedBlockingDeque</node>
+    <node x="35791.81250000001" y="13065.0">java.util.concurrent.ConcurrentHashMap.ForEachValueTask</node>
+    <node x="23341.312500000007" y="14498.0">java.util.concurrent.CompletableFuture.BiRun</node>
+    <node x="2130.0" y="16888.0">java.util.concurrent.ThreadLocalRandom.RandomIntsSpliterator</node>
+    <node x="16111.90626815033" y="13021.0">java.util.concurrent.Semaphore.Sync</node>
+    <node x="26695.312500000007" y="10629.0">java.util.concurrent.ScheduledFuture</node>
+    <node x="54424.81250000001" y="13033.0">java.util.concurrent.ConcurrentHashMap.SearchEntriesTask</node>
+    <node x="36300.909681742225" y="7283.0">java.util.concurrent.ForkJoinTask.RunnableExecuteAction</node>
+    <node x="8280.0" y="15427.0">java.util.concurrent.TimeoutException</node>
+    <node x="7949.406268150331" y="13086.0">java.util.concurrent.ThreadPoolExecutor.AbortPolicy</node>
+    <node x="3419.75" y="13107.0">java.util.concurrent.SynchronousQueue.WaitQueue</node>
+    <node x="21165.312500000007" y="14498.0">java.util.concurrent.CompletableFuture.BiAccept</node>
+    <node x="65276.5625" y="10466.0">java.util.concurrent.ConcurrentHashMap.Node</node>
+    <node x="35168.81250000001" y="13065.0">java.util.concurrent.ConcurrentHashMap.ForEachKeyTask</node>
+    <node x="5916.0" y="15427.0">java.util.concurrent.CyclicBarrier</node>
+    <node x="16383.90626815033" y="13065.0">java.util.concurrent.CompletableFuture.UniCompose</node>
+    <node x="34225.81250000001" y="13054.0">java.util.concurrent.ConcurrentHashMap.ForEachTransformedValueTask</node>
+    <node x="44605.433637572205" y="10465.0">java.util.concurrent.ConcurrentHashMap.BulkTask</node>
+    <node x="10877.031268150331" y="12934.0">java.util.concurrent.ThreadPoolExecutor.Worker</node>
+    <node x="2820.2593775033565" y="15145.0">java.util.concurrent.LinkedBlockingDeque.DescendingItr</node>
+    <node x="23634.218768150327" y="13075.0">java.util.concurrent.ConcurrentHashMap.Segment</node>
+    <node x="6996.0" y="15427.0">java.util.concurrent.CompletionException</node>
+    <node x="12708.476044170024" y="7283.0">java.util.concurrent.CompletableFuture.AsyncRun</node>
+    <node x="10.5" y="17075.0">java.util.concurrent.ConcurrentLinkedDeque.CLDSpliterator</node>
+    <node x="2435.1666666666642" y="10168.0">java.util.concurrent.LinkedBlockingQueue</node>
+    <node x="14152.663544170025" y="10629.0">java.util.concurrent.locks</node>
+    <node x="62460.06250000001" y="14508.0">java.util.concurrent.ConcurrentHashMap.ValueIterator</node>
+    <node x="6113.934377503359" y="14498.0">java.util.concurrent.ForkJoinPool.InnocuousForkJoinWorkerThreadFactory</node>
+    <node x="66623.4375" y="14486.0">java.util.concurrent.ConcurrentSkipListMap.ValueSpliterator</node>
+    <node x="57527.81250000001" y="12989.0">java.util.concurrent.ConcurrentHashMap.MapReduceKeysToIntTask</node>
+    <node x="65969.1875" y="15145.0">java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapEntryIterator</node>
+    <node x="3587.5" y="15427.0">java.util.concurrent.ConcurrentLinkedQueue</node>
+    <node x="43867.81250000001" y="13033.0">java.util.concurrent.ConcurrentHashMap.SearchValuesTask</node>
+    <node x="15247.90626815033" y="13065.0">java.util.concurrent.CompletableFuture.UniWhenComplete</node>
+    <node x="7508.934377503359" y="9685.0">java.util.concurrent.ThreadPoolExecutor</node>
+    <node x="55299.81250000001" y="12989.0">java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToLongTask</node>
+    <node x="27263.812500000007" y="14498.0">java.util.concurrent.ExecutorCompletionService.QueueingFuture</node>
+    <node x="964.5" y="13021.0">java.util.concurrent.PriorityBlockingQueue.Itr</node>
+    <node x="6594.0" y="15427.0">java.util.concurrent.RejectedExecutionException</node>
+    <node x="30136.734681742226" y="10411.0">java.util.concurrent.ConcurrentHashMap.CollectionView</node>
+    <node x="26503.937500000007" y="13011.0">java.util.concurrent.ForkJoinTask.AdaptedRunnable</node>
+    <node x="8791.406268150331" y="13086.0">java.util.concurrent.ThreadPoolExecutor.CallerRunsPolicy</node>
+    <node x="26383.593768150327" y="4146.0">java.util.concurrent.ForkJoinTask</node>
+    <node x="43022.81250000001" y="13033.0">java.util.concurrent.ConcurrentHashMap.SearchKeysTask</node>
+    <node x="63642.1875" y="10476.0">java.util.concurrent.ConcurrentHashMap.Traverser</node>
+    <node x="47874.81250000001" y="13065.0">java.util.concurrent.ConcurrentHashMap.ForEachEntryTask</node>
+    <node x="2688.2593775033565" y="14410.0">java.util.concurrent.LinkedBlockingDeque.AbstractItr</node>
+    <node x="4589.000000000004" y="12625.0">java.util.concurrent.ForkJoinPool.WorkQueue</node>
+    <node x="1890.5" y="10563.0">java.util.concurrent.TransferQueue</node>
+    <node x="5639.0" y="15427.0">java.util.concurrent.TimeUnit</node>
+    <node x="58602.81250000001" y="12989.0">java.util.concurrent.ConcurrentHashMap.MapReduceValuesToDoubleTask</node>
+    <node x="4691.5" y="16054.0">java.util.concurrent.Exchanger.Node</node>
+    <node x="63344.0625" y="13010.0">java.util.concurrent.ConcurrentHashMap.EntrySpliterator</node>
+    <node x="68452.86354417003" y="9575.0">java.util.concurrent.ConcurrentSkipListMap</node>
+    <node x="65447.0625" y="13010.0">java.util.concurrent.ConcurrentHashMap.TreeNode</node>
+    <node x="68432.27083333334" y="14519.0">java.util.concurrent.ConcurrentSkipListMap.EntryIterator</node>
+    <node x="17610.562500000007" y="14389.0">java.util.concurrent.Phaser.QNode</node>
+    <node x="1207.75" y="14399.0">java.util.concurrent.LinkedBlockingDeque.LBDSpliterator</node>
+    <node x="10621.031268150331" y="13054.0">java.util.concurrent.Executors.PrivilegedThreadFactory</node>
+    <node x="26172.937500000007" y="13011.0">java.util.concurrent.ForkJoinTask.AdaptedCallable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.Executors.DefaultThreadFactory" target="java.util.concurrent.Executors">
+      <point x="-59.0" y="-101.5" />
+      <point x="11234.281268150331" y="9108.0" />
+      <point x="10470.601044170024" y="9108.0" />
+      <point x="297.5" y="278.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinPool.DefaultForkJoinWorkerThreadFactory" target="java.util.concurrent.ForkJoinPool">
+      <point x="89.5" y="-47.5" />
+      <point x="6933.934377503359" y="14018.0" />
+      <point x="5025.500000000004" y="14018.0" />
+      <point x="5025.500000000004" y="12309.0" />
+      <point x="5017.9166666666715" y="12309.0" />
+      <point x="51.08333333333212" y="1475.5" />
+    </edge>
+    <edge source="java.util.concurrent.RecursiveTask" target="java.util.concurrent.ForkJoinTask">
+      <point x="0.0" y="-111.5" />
+      <point x="27429.781268150327" y="5881.0" />
+      <point x="26668.218768150327" y="5881.0" />
+      <point x="86.625" y="837.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.EntrySpliterator" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="132.25" y="-101.5" />
+      <point x="67572.1875" y="12269.0" />
+      <point x="68569.5302108367" y="12269.0" />
+      <point x="-133.33333333332848" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceKeysToIntTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-263.75" y="-144.5" />
+      <point x="57791.56250000001" y="12189.0" />
+      <point x="44962.933637572205" y="12189.0" />
+      <point x="156.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ReduceKeysTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="230.25" y="-122.5" />
+      <point x="57277.56250000001" y="9068.0" />
+      <point x="49519.49967530806" y="9068.0" />
+      <point x="114.56603773585084" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ReduceEntriesTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-262.25" y="-122.5" />
+      <point x="39146.06250000001" y="9038.0" />
+      <point x="49233.08458096844" y="9038.0" />
+      <point x="-171.84905660377262" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ArrayBlockingQueue.Itrs" target="java.util.concurrent.ArrayBlockingQueue">
+      <point x="0.0" y="-167.5" />
+      <point x="108.25" y="464.5" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.NonfairSync" target="java.util.concurrent.Semaphore.Sync">
+      <point x="-51.25" y="-68.5" />
+      <point x="18905.812500000007" y="13978.0" />
+      <point x="16300.90626815033" y="13978.0" />
+      <point x="63.0" y="112.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniRelay" target="java.util.concurrent.CompletableFuture.UniCompletion">
+      <point x="-106.5" y="-47.5" />
+      <point x="19743.531268150327" y="12189.0" />
+      <point x="17416.437500000007" y="12189.0" />
+      <point x="177.0" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.DelayQueue.Itr" target="java.util.concurrent.DelayQueue">
+      <point x="0.0" y="-112.5" />
+      <point x="17414.531268150327" y="12239.0" />
+      <point x="17687.312500000007" y="12239.0" />
+      <point x="0.0" y="310.5" />
+    </edge>
+    <edge source="java.util.concurrent.FutureTask.WaitNode" target="java.util.concurrent.FutureTask">
+      <point x="0.0" y="-58.5" />
+      <point x="28512.488544170024" y="14138.0" />
+      <point x="28302.812500000007" y="14138.0" />
+      <point x="112.0" y="408.5" />
+    </edge>
+    <edge source="java.util.concurrent.Phaser.QNode" target="java.util.concurrent.Phaser">
+      <point x="81.75" y="-177.5" />
+      <point x="17855.812500000007" y="14138.0" />
+      <point x="18474.031268150327" y="14138.0" />
+      <point x="0.0" y="672.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue.TransferStack" target="java.util.concurrent.SynchronousQueue">
+      <point x="78.0" y="-189.5" />
+      <point x="6015.934377503352" y="14058.0" />
+      <point x="4061.75" y="14058.0" />
+      <point x="4061.75" y="12309.0" />
+      <point x="3999.75" y="12309.0" />
+      <point x="150.0" y="441.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.TableStack" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="0.0" y="-80.5" />
+      <point x="53661.48854417003" y="9108.0" />
+      <point x="49462.21665644013" y="9108.0" />
+      <point x="57.28301886792178" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.CountedCompleter" target="java.util.concurrent.ForkJoinTask">
+      <point x="0.0" y="-342.5" />
+      <point x="35910.53854417003" y="5871.0" />
+      <point x="26692.968768150327" y="5871.0" />
+      <point x="111.375" y="837.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniAccept" target="java.util.concurrent.CompletableFuture">
+      <point x="-168.25" y="-68.5" />
+      <point x="13096.156268150331" y="12159.0" />
+      <point x="12117.781268150331" y="12159.0" />
+      <point x="12117.781268150331" y="4016.0" />
+      <point x="19296.70286834144" y="4016.0" />
+      <point x="-298.4807692307695" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceMappingsTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-340.5" y="-133.5" />
+      <point x="41248.31250000001" y="9058.0" />
+      <point x="49261.7260904024" y="9058.0" />
+      <point x="-143.20754716981173" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.AsyncSupply" target="java.util.concurrent.CompletableFuture">
+      <point x="0.0" y="-111.5" />
+      <point x="19584.156268150327" y="4126.0" />
+      <point x="19682.97209911067" y="4126.0" />
+      <point x="87.78846153846098" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.SearchEntriesTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="213.75" y="-100.5" />
+      <point x="55066.06250000001" y="9088.0" />
+      <point x="49490.8581658741" y="9088.0" />
+      <point x="85.92452830188995" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.AsyncRun" target="java.util.concurrent.CompletableFuture">
+      <point x="0.0" y="-111.5" />
+      <point x="12890.476044170024" y="4046.0" />
+      <point x="19402.04902218759" y="4046.0" />
+      <point x="-193.13461538461706" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapKeyIterator" target="java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapIter">
+      <point x="65.5" y="-79.5" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingDeque.DescendingItr" target="java.util.concurrent.LinkedBlockingDeque">
+      <point x="61.0" y="-58.5" />
+      <point x="3003.2593775033565" y="15005.0" />
+      <point x="2978.0093775033565" y="15005.0" />
+      <point x="2978.0093775033565" y="14138.0" />
+      <point x="3348.0999999999985" y="14138.0" />
+      <point x="143.59999999999854" y="760.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DelegatedExecutorService" target="java.util.concurrent.Executors">
+      <point x="139.5" y="-210.5" />
+      <point x="9810.601044170024" y="9148.0" />
+      <point x="9875.601044170024" y="9148.0" />
+      <point x="-297.5" y="278.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledThreadPoolExecutor.ScheduledFutureTask" target="java.util.concurrent.RunnableScheduledFuture">
+      <point x="0.0" y="-199.5" />
+      <point x="26523.288544170027" y="14118.0" />
+      <point x="27143.538544170027" y="14118.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.CountDownLatch.Sync" target="java.util.concurrent.CountDownLatch">
+      <point x="-60.5" y="-90.5" />
+      <point x="12726.406268150331" y="12169.0" />
+      <point x="11988.281268150331" y="12169.0" />
+      <point x="0.0" y="122.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingDeque" target="java.util.concurrent.BlockingDeque">
+      <point x="0.0" y="-760.5" />
+      <point x="0.0" y="334.5" />
+    </edge>
+    <edge source="java.util.concurrent.ArrayBlockingQueue.Itrs.Node" target="java.util.concurrent.ArrayBlockingQueue.Itrs">
+      <point x="0.0" y="-47.5" />
+      <point x="76.0" y="14058.0" />
+      <point x="1577.5" y="14058.0" />
+      <point x="0.0" y="167.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DelegatedScheduledExecutorService" target="java.util.concurrent.Executors">
+      <point x="184.33333333333576" y="-101.5" />
+      <point x="9673.239601483667" y="12309.0" />
+      <point x="9960.601044170024" y="12309.0" />
+      <point x="-212.5" y="278.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ReduceValuesTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-236.25" y="-122.5" />
+      <point x="50077.06250000001" y="12259.0" />
+      <point x="44871.933637572205" y="12259.0" />
+      <point x="65.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachTransformedMappingTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="255.25" y="-79.5" />
+      <point x="51571.56250000001" y="9128.0" />
+      <point x="49433.575147006166" y="9128.0" />
+      <point x="28.64150943396089" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue" target="java.util.concurrent.BlockingQueue">
+      <point x="0.0" y="-441.5" />
+      <point x="3849.75" y="9148.0" />
+      <point x="3229.9479348169953" y="9148.0" />
+      <point x="91.25" y="136.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.Signaller" target="java.util.concurrent.CompletableFuture">
+      <point x="0.0" y="-144.5" />
+      <point x="11436.70833333334" y="14128.0" />
+      <point x="11543.781268150331" y="14128.0" />
+      <point x="11543.781268150331" y="3996.0" />
+      <point x="19226.47209911067" y="3996.0" />
+      <point x="-368.711538461539" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceValuesToIntTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-269.75" y="-144.5" />
+      <point x="61262.56250000001" y="12159.0" />
+      <point x="45001.933637572205" y="12159.0" />
+      <point x="195.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToDoubleTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="334.75" y="-144.5" />
+      <point x="52851.06250000001" y="9118.0" />
+      <point x="49447.895901723154" y="9118.0" />
+      <point x="42.96226415094134" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledThreadPoolExecutor.ScheduledFutureTask" target="java.util.concurrent.FutureTask">
+      <point x="117.0" y="-199.5" />
+      <point x="26640.288544170027" y="14128.0" />
+      <point x="28078.812500000007" y="14128.0" />
+      <point x="-112.0" y="408.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.CoCompletion" target="java.util.concurrent.CompletableFuture">
+      <point x="-73.75" y="-79.5" />
+      <point x="11628.031268150331" y="4006.0" />
+      <point x="19261.587483726056" y="4006.0" />
+      <point x="-333.59615384615245" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinTask.ExceptionNode" target="java.util.concurrent.ForkJoinTask">
+      <point x="0.0" y="-80.5" />
+      <point x="36872.909681742225" y="5841.0" />
+      <point x="26767.218768150327" y="5841.0" />
+      <point x="185.625" y="837.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.BiRun" target="java.util.concurrent.CompletableFuture">
+      <point x="180.0" y="-68.5" />
+      <point x="23881.312500000007" y="14138.0" />
+      <point x="24431.781268150327" y="14138.0" />
+      <point x="24431.781268150327" y="4056.0" />
+      <point x="19963.895176033748" y="4056.0" />
+      <point x="368.711538461539" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.SearchMappingsTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="233.75" y="-100.5" />
+      <point x="40654.06250000001" y="12269.0" />
+      <point x="44741.933637572205" y="12269.0" />
+      <point x="-65.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedTransferQueue.Node" target="java.util.concurrent.LinkedTransferQueue">
+      <point x="0.0" y="-233.5" />
+      <point x="668.5" y="14078.0" />
+      <point x="2036.5" y="14078.0" />
+      <point x="0.0" y="683.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachMappingTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-178.25" y="-68.5" />
+      <point x="42468.06250000001" y="9068.0" />
+      <point x="49276.046845119374" y="9068.0" />
+      <point x="-128.8867924528313" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedDeque.Itr" target="java.util.concurrent.ConcurrentLinkedDeque.AbstractItr">
+      <point x="-61.0" y="-58.5" />
+      <point x="694.0625" y="17446.0" />
+      <point x="559.5" y="17446.0" />
+      <point x="61.0" y="145.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedDeque.CLDSpliterator" target="java.util.concurrent.ConcurrentLinkedDeque">
+      <point x="0.0" y="-156.5" />
+      <point x="183.5" y="17022.0" />
+      <point x="423.1" y="17022.0" />
+      <point x="-75.39999999999998" y="782.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.Segment" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="46.5" y="-58.5" />
+      <point x="23773.718768150327" y="12269.0" />
+      <point x="26961.687500000007" y="12269.0" />
+      <point x="26961.687500000007" y="8898.0" />
+      <point x="49032.5940149307" y="8898.0" />
+      <point x="-372.33962264150614" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapValueIterator" target="java.util.concurrent.ConcurrentSkipListMap.SubMap">
+      <point x="49.25" y="-58.5" />
+      <point x="66612.9375" y="14138.0" />
+      <point x="66561.1875" y="14138.0" />
+      <point x="194.625" y="804.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap" target="java.util.concurrent.ConcurrentMap">
+      <point x="0.0" y="-1453.5" />
+      <point x="49404.933637572205" y="5921.0" />
+      <point x="58704.79508025857" y="5921.0" />
+      <point x="-125.0" y="136.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceKeysToDoubleTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-299.75" y="-144.5" />
+      <point x="53505.56250000001" y="12229.0" />
+      <point x="44910.933637572205" y="12229.0" />
+      <point x="104.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceKeysToDoubleTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="299.75" y="-144.5" />
+      <point x="54105.06250000001" y="9098.0" />
+      <point x="49476.537411157115" y="9098.0" />
+      <point x="71.60377358490223" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinPool.EmptyTask" target="java.util.concurrent.ForkJoinPool">
+      <point x="-46.5" y="-89.5" />
+      <point x="13667.406268150331" y="12149.0" />
+      <point x="5222.250000000007" y="12149.0" />
+      <point x="255.41666666666697" y="1475.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue.WaitQueue" target="java.util.concurrent.SynchronousQueue">
+      <point x="0.0" y="-26.5" />
+      <point x="3485.75" y="12279.0" />
+      <point x="3759.75" y="12279.0" />
+      <point x="-90.0" y="441.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedDeque.Node" target="java.util.concurrent.ConcurrentLinkedDeque">
+      <point x="0.0" y="-189.5" />
+      <point x="787.0" y="17022.0" />
+      <point x="573.9" y="17022.0" />
+      <point x="75.39999999999998" y="782.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniCompletion" target="java.util.concurrent.CompletableFuture">
+      <point x="132.75" y="-101.5" />
+      <point x="17372.187500000007" y="4096.0" />
+      <point x="19577.625945264517" y="4096.0" />
+      <point x="-17.557692307691468" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.ThreadPerTaskExecutor" target="java.util.concurrent.CompletableFuture">
+      <point x="53.25" y="-47.5" />
+      <point x="10851.375000000007" y="3976.0" />
+      <point x="19156.2413298799" y="3976.0" />
+      <point x="-438.94230769230853" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedQueue.CLQSpliterator" target="java.util.concurrent.ConcurrentLinkedQueue">
+      <point x="0.0" y="-156.5" />
+      <point x="0.0" y="364.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.AltResult" target="java.util.concurrent.CompletableFuture">
+      <point x="0.0" y="-47.5" />
+      <point x="11018.125000000007" y="3986.0" />
+      <point x="19191.356714495287" y="3986.0" />
+      <point x="-403.82692307692196" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.RecursiveAction" target="java.util.concurrent.ForkJoinTask">
+      <point x="0.0" y="-100.5" />
+      <point x="26224.937500000007" y="5911.0" />
+      <point x="26519.718768150327" y="5911.0" />
+      <point x="-61.875" y="837.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.AsyncRun" target="java.util.concurrent.CompletableFuture.AsynchronousCompletionTask">
+      <point x="-121.33333333333394" y="-111.5" />
+      <point x="12769.142710836688" y="5851.0" />
+      <point x="12405.864601483663" y="5851.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue.Transferer" target="java.util.concurrent.SynchronousQueue">
+      <point x="0.0" y="-47.5" />
+      <point x="3860.75" y="12309.0" />
+      <point x="3939.75" y="12309.0" />
+      <point x="90.0" y="441.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinPool" target="java.util.concurrent.AbstractExecutorService">
+      <point x="0.0" y="-1475.5" />
+      <point x="4966.833333333339" y="9148.0" />
+      <point x="7663.309377503359" y="9148.0" />
+      <point x="-186.0" y="146.5" />
+    </edge>
+    <edge source="java.util.concurrent.ExecutorService" target="java.util.concurrent.Executor">
+      <point x="0.0" y="-157.5" />
+      <point x="8270.500000000007" y="4126.0" />
+      <point x="10644.875000000007" y="4126.0" />
+      <point x="-50.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor.Worker" target="java.util.concurrent.ThreadPoolExecutor">
+      <point x="-56.0" y="-199.5" />
+      <point x="10933.031268150331" y="12159.0" />
+      <point x="8235.851044170024" y="12159.0" />
+      <point x="330.41666666666606" y="958.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.ValueSpliterator" target="java.util.concurrent.ConcurrentSkipListMap.CSLMSpliterator">
+      <point x="133.0" y="-80.5" />
+      <point x="67022.4375" y="14138.0" />
+      <point x="67071.97530423888" y="14138.0" />
+      <point x="-178.33333333332848" y="112.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.Traverser" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="0.0" y="-167.5" />
+      <point x="63786.6875" y="8968.0" />
+      <point x="49662.70722247787" y="8968.0" />
+      <point x="257.7735849056626" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinTask.RunnableExecuteAction" target="java.util.concurrent.ForkJoinTask">
+      <point x="-82.25" y="-111.5" />
+      <point x="36383.159681742225" y="5861.0" />
+      <point x="26717.718768150327" y="5861.0" />
+      <point x="136.125" y="837.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.Node" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="0.0" y="-177.5" />
+      <point x="65392.5625" y="8918.0" />
+      <point x="49734.31099606278" y="8918.0" />
+      <point x="329.3773584905648" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.OrApply" target="java.util.concurrent.CompletableFuture">
+      <point x="-217.75" y="-68.5" />
+      <point x="19523.062500000007" y="14078.0" />
+      <point x="20073.531268150327" y="14078.0" />
+      <point x="20073.531268150327" y="4116.0" />
+      <point x="19753.20286834144" y="4116.0" />
+      <point x="158.0192307692305" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingQueue.LBQSpliterator" target="java.util.concurrent.LinkedBlockingQueue">
+      <point x="0.0" y="-167.5" />
+      <point x="2832.0" y="12309.0" />
+      <point x="2734.333333333332" y="12309.0" />
+      <point x="119.66666666666652" y="475.5" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.Sync" target="java.util.concurrent.locks">
+      <point x="-63.0" y="-112.5" />
+      <point x="16174.90626815033" y="12179.0" />
+      <point x="14229.538544170025" y="12179.0" />
+      <point x="15.375" y="14.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachTransformedMappingTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-255.25" y="-79.5" />
+      <point x="51061.06250000001" y="12249.0" />
+      <point x="44884.933637572205" y="12249.0" />
+      <point x="78.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ValueSpliterator" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="90.25" y="-112.5" />
+      <point x="64545.8125" y="8948.0" />
+      <point x="49691.34873191183" y="8948.0" />
+      <point x="286.41509433962347" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue.FifoWaitQueue" target="java.util.concurrent.SynchronousQueue.WaitQueue">
+      <point x="46.5" y="-47.5" />
+      <point x="5162.434377503352" y="14118.0" />
+      <point x="3452.75" y="14118.0" />
+      <point x="-33.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.RunnableScheduledFuture" target="java.util.concurrent.RunnableFuture">
+      <point x="52.25" y="-26.5" />
+      <point x="27195.788544170027" y="12299.0" />
+      <point x="27893.487500000007" y="12299.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceValuesTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="311.5" y="-133.5" />
+      <point x="49509.31250000001" y="9148.0" />
+      <point x="49404.933637572205" y="9148.0" />
+      <point x="0.0" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.BiAccept" target="java.util.concurrent.CompletableFuture">
+      <point x="-226.25" y="-68.5" />
+      <point x="21391.562500000007" y="14078.0" />
+      <point x="21942.031268150327" y="14078.0" />
+      <point x="21942.031268150327" y="4096.0" />
+      <point x="19823.43363757221" y="4096.0" />
+      <point x="228.25" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedCallableUsingCurrentClassLoader" target="java.util.concurrent.Executors">
+      <point x="-104.5" y="-90.5" />
+      <point x="10567.781268150331" y="9138.0" />
+      <point x="10300.601044170024" y="9138.0" />
+      <point x="127.5" y="278.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap" target="java.util.concurrent.ConcurrentNavigableMap">
+      <point x="0.0" y="-1068.5" />
+      <point x="68702.86354417003" y="9148.0" />
+      <point x="68380.05104417003" y="9148.0" />
+      <point x="115.5" y="125.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachTransformedKeyTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-227.75" y="-79.5" />
+      <point x="45909.56250000001" y="12299.0" />
+      <point x="44819.933637572205" y="12299.0" />
+      <point x="13.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.Exchanger.Node" target="java.util.concurrent.Exchanger">
+      <point x="0.0" y="-113.5" />
+      <point x="4761.0" y="16029.0" />
+      <point x="4762.5" y="16029.0" />
+      <point x="-84.5" y="288.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceValuesToIntTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="269.75" y="-144.5" />
+      <point x="61802.06250000001" y="9028.0" />
+      <point x="49576.782694175985" y="9028.0" />
+      <point x="171.84905660377262" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.Iter" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="0.0" y="-112.5" />
+      <point x="68441.02083333334" y="12299.0" />
+      <point x="68669.5302108367" y="12299.0" />
+      <point x="-33.33333333332848" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForwardingNode" target="java.util.concurrent.ConcurrentHashMap.Node">
+      <point x="63.5" y="-68.5" />
+      <point x="-29.0" y="177.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToDoubleTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-334.75" y="-144.5" />
+      <point x="52181.56250000001" y="12239.0" />
+      <point x="44897.933637572205" y="12239.0" />
+      <point x="91.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinPool.ManagedBlocker" target="java.util.concurrent.ForkJoinPool">
+      <point x="0.0" y="-47.5" />
+      <point x="5607.958333333339" y="12309.0" />
+      <point x="5120.083333333339" y="12309.0" />
+      <point x="153.25" y="1475.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadLocalRandom.RandomDoublesSpliterator" target="java.util.concurrent.ThreadLocalRandom">
+      <point x="0.0" y="-145.5" />
+      <point x="0.0" y="705.5" />
+    </edge>
+    <edge source="java.util.concurrent.CopyOnWriteArrayList.COWSubListIterator" target="java.util.concurrent.CopyOnWriteArrayList">
+      <point x="0.0" y="-189.5" />
+      <point x="0.0" y="661.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture" target="java.util.concurrent.CompletionStage">
+      <point x="-228.25" y="-1519.5" />
+      <point x="0.0" y="433.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinPool.WorkQueue" target="java.util.concurrent.ForkJoinPool">
+      <point x="0.0" y="-508.5" />
+      <point x="4802.000000000004" y="12309.0" />
+      <point x="4915.750000000007" y="12309.0" />
+      <point x="-51.08333333333303" y="1475.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ValuesView" target="java.util.concurrent.ConcurrentHashMap.CollectionView">
+      <point x="78.0" y="-134.5" />
+      <point x="28612.812500000007" y="12159.0" />
+      <point x="30192.401348408894" y="12159.0" />
+      <point x="-111.33333333333212" y="232.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.BulkTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="100.75" y="-178.5" />
+      <point x="44907.683637572205" y="9098.0" />
+      <point x="49319.00910927032" y="9098.0" />
+      <point x="-85.92452830188995" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachValueTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-153.75" y="-68.5" />
+      <point x="35945.56250000001" y="9008.0" />
+      <point x="49190.12231681749" y="9008.0" />
+      <point x="-214.81132075471396" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.FairSync" target="java.util.concurrent.Semaphore.Sync">
+      <point x="-51.25" y="-68.5" />
+      <point x="18680.812500000007" y="13988.0" />
+      <point x="16174.90626815033" y="13988.0" />
+      <point x="-63.0" y="112.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue.FifoWaitQueue" target="java.util.concurrent.SynchronousQueue">
+      <point x="-46.5" y="-47.5" />
+      <point x="5069.434377503352" y="14128.0" />
+      <point x="3409.25" y="14128.0" />
+      <point x="3409.25" y="12269.0" />
+      <point x="3699.75" y="12269.0" />
+      <point x="-150.0" y="441.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DelegatedScheduledExecutorService" target="java.util.concurrent.Executors.DelegatedExecutorService">
+      <point x="0.0" y="-101.5" />
+      <point x="9488.906268150331" y="12309.0" />
+      <point x="9531.601044170024" y="12309.0" />
+      <point x="-139.5" y="210.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinTask.AdaptedRunnable" target="java.util.concurrent.ForkJoinTask">
+      <point x="0.0" y="-122.5" />
+      <point x="26629.437500000007" y="5911.0" />
+      <point x="26593.968768150327" y="5911.0" />
+      <point x="12.375" y="837.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue.LifoWaitQueue" target="java.util.concurrent.SynchronousQueue">
+      <point x="46.5" y="-47.5" />
+      <point x="5368.434377503352" y="14098.0" />
+      <point x="3610.5" y="14098.0" />
+      <point x="3610.5" y="12289.0" />
+      <point x="3819.75" y="12289.0" />
+      <point x="-30.0" y="441.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.AsyncSupply" target="java.util.concurrent.CompletableFuture.AsynchronousCompletionTask">
+      <point x="-127.33333333333212" y="-111.5" />
+      <point x="19456.822934817" y="5841.0" />
+      <point x="12482.531268150331" y="5841.0" />
+      <point x="76.66666666666606" y="14.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ReduceKeysTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-230.25" y="-122.5" />
+      <point x="56817.06250000001" y="12199.0" />
+      <point x="44949.933637572205" y="12199.0" />
+      <point x="143.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.EntryIterator" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="121.5" y="-47.5" />
+      <point x="63333.5625" y="8988.0" />
+      <point x="49634.06571304391" y="8988.0" />
+      <point x="229.13207547170168" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.BlockingDeque" target="java.util.concurrent.BlockingQueue">
+      <point x="0.0" y="-334.5" />
+      <point x="3204.5" y="9148.0" />
+      <point x="3193.4479348169953" y="9148.0" />
+      <point x="54.75" y="136.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.AsyncRun" target="java.util.concurrent.ForkJoinTask">
+      <point x="121.33333333333394" y="-111.5" />
+      <point x="13011.80937750336" y="5871.0" />
+      <point x="26420.718768150327" y="5871.0" />
+      <point x="-160.875" y="837.5" />
+    </edge>
+    <edge source="java.util.concurrent.CyclicBarrier.Generation" target="java.util.concurrent.CyclicBarrier">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="232.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor.CallerRunsPolicy" target="java.util.concurrent.ThreadPoolExecutor">
+      <point x="100.25" y="-47.5" />
+      <point x="9092.156268150331" y="12229.0" />
+      <point x="8103.684377503359" y="12229.0" />
+      <point x="198.25" y="958.5" />
+    </edge>
+    <edge source="java.util.concurrent.PriorityBlockingQueue.PBQSpliterator" target="java.util.concurrent.PriorityBlockingQueue">
+      <point x="0.0" y="-156.5" />
+      <point x="729.0" y="12309.0" />
+      <point x="781.5" y="12309.0" />
+      <point x="-132.75" y="574.5" />
+    </edge>
+    <edge source="java.util.concurrent.CopyOnWriteArrayList.COWIterator" target="java.util.concurrent.CopyOnWriteArrayList">
+      <point x="0.0" y="-178.5" />
+      <point x="1168.0" y="16775.0" />
+      <point x="1413.6666666666667" y="16775.0" />
+      <point x="-120.33333333333326" y="661.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForwardingNode" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-63.5" y="-68.5" />
+      <point x="65236.5625" y="12299.0" />
+      <point x="65266.0625" y="12299.0" />
+      <point x="65266.0625" y="8928.0" />
+      <point x="49719.99024134579" y="8928.0" />
+      <point x="315.05660377358436" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToIntTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="298.75" y="-144.5" />
+      <point x="38565.06250000001" y="12249.0" />
+      <point x="44715.933637572205" y="12249.0" />
+      <point x="-91.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedTransferQueue" target="java.util.concurrent.TransferQueue">
+      <point x="0.0" y="-683.5" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.BiApply" target="java.util.concurrent.CompletableFuture.BiCompletion">
+      <point x="237.25" y="-68.5" />
+      <point x="20908.062500000007" y="14098.0" />
+      <point x="23049.531268150327" y="14098.0" />
+      <point x="-213.125" y="47.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.KeySpliterator" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="130.0" y="-101.5" />
+      <point x="68114.4375" y="12279.0" />
+      <point x="68602.86354417003" y="12279.0" />
+      <point x="-100.0" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.TreeNode" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="97.5" y="-123.5" />
+      <point x="65739.5625" y="8908.0" />
+      <point x="49748.63175077975" y="8908.0" />
+      <point x="343.69811320754525" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ReduceEntriesTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="262.25" y="-122.5" />
+      <point x="39670.56250000001" y="12259.0" />
+      <point x="44728.933637572205" y="12259.0" />
+      <point x="-78.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapEntryIterator" target="java.util.concurrent.ConcurrentSkipListMap.SubMap">
+      <point x="-48.5" y="-58.5" />
+      <point x="66017.6875" y="14138.0" />
+      <point x="66171.9375" y="14138.0" />
+      <point x="-194.625" y="804.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.ValueIterator" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="-36.25" y="-47.5" />
+      <point x="68300.6875" y="14138.0" />
+      <point x="68314.02083333334" y="14138.0" />
+      <point x="68314.02083333334" y="12289.0" />
+      <point x="68636.19687750336" y="12289.0" />
+      <point x="-66.66666666667152" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.SearchKeysTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-206.25" y="-100.5" />
+      <point x="43229.06250000001" y="9078.0" />
+      <point x="49290.36759983636" y="9078.0" />
+      <point x="-114.56603773585084" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.SearchEntriesTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-213.75" y="-100.5" />
+      <point x="54638.56250000001" y="12219.0" />
+      <point x="44923.933637572205" y="12219.0" />
+      <point x="117.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingDeque.DescendingItr" target="java.util.concurrent.LinkedBlockingDeque.AbstractItr">
+      <point x="-61.0" y="-58.5" />
+      <point x="2881.2593775033565" y="15005.0" />
+      <point x="2871.2593775033565" y="15005.0" />
+      <point x="61.0" y="156.5" />
+    </edge>
+    <edge source="java.util.concurrent.ExecutorCompletionService.QueueingFuture" target="java.util.concurrent.ExecutorCompletionService">
+      <point x="-73.5" y="-68.5" />
+      <point x="27337.312500000007" y="13958.0" />
+      <point x="25907.937500000007" y="13958.0" />
+      <point x="0.0" y="167.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ReservationNode" target="java.util.concurrent.ConcurrentHashMap.Node">
+      <point x="-57.5" y="-47.5" />
+      <point x="65914.5625" y="12299.0" />
+      <point x="65479.5625" y="12299.0" />
+      <point x="87.0" y="177.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinPool.EmptyTask" target="java.util.concurrent.ForkJoinTask">
+      <point x="46.5" y="-89.5" />
+      <point x="13760.406268150331" y="12259.0" />
+      <point x="25770.937500000007" y="12259.0" />
+      <point x="25770.937500000007" y="5891.0" />
+      <point x="26470.218768150327" y="5891.0" />
+      <point x="-111.375" y="837.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.BaseIterator" target="java.util.concurrent.ConcurrentHashMap.Traverser">
+      <point x="121.0" y="-101.5" />
+      <point x="62947.81250000001" y="12309.0" />
+      <point x="63678.3125" y="12309.0" />
+      <point x="-108.375" y="167.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue" target="java.util.concurrent.ScheduledThreadPoolExecutor">
+      <point x="128.0" y="-408.5" />
+      <point x="3446.3333333333358" y="14138.0" />
+      <point x="7035.156268150331" y="14138.0" />
+      <point x="-157.75" y="397.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture" target="java.util.concurrent.Future">
+      <point x="228.25" y="-1519.5" />
+      <point x="19823.43363757221" y="887.0" />
+      <point x="27378.656268150327" y="887.0" />
+      <point x="-77.625" y="80.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachTransformedKeyTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="227.75" y="-79.5" />
+      <point x="46365.06250000001" y="9128.0" />
+      <point x="49361.97137342127" y="9128.0" />
+      <point x="-42.96226415094134" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceValuesToLongTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="287.75" y="-144.5" />
+      <point x="33918.06250000001" y="12199.0" />
+      <point x="44650.933637572205" y="12199.0" />
+      <point x="-156.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ReservationNode" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="57.5" y="-47.5" />
+      <point x="66029.5625" y="8898.0" />
+      <point x="49762.95250549674" y="8898.0" />
+      <point x="358.0188679245257" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToLongTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="292.5" y="-144.5" />
+      <point x="29588.312500000007" y="12169.0" />
+      <point x="44611.933637572205" y="12169.0" />
+      <point x="-195.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniWhenComplete" target="java.util.concurrent.CompletableFuture">
+      <point x="-211.0" y="-68.5" />
+      <point x="15458.90626815033" y="12189.0" />
+      <point x="15406.562500000007" y="12189.0" />
+      <point x="15406.562500000007" y="4076.0" />
+      <point x="19507.395176033748" y="4076.0" />
+      <point x="-87.78846153846098" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniExceptionally" target="java.util.concurrent.CompletableFuture">
+      <point x="189.25" y="-68.5" />
+      <point x="18084.781268150327" y="12239.0" />
+      <point x="18102.187500000007" y="12239.0" />
+      <point x="18102.187500000007" y="4106.0" />
+      <point x="19612.7413298799" y="4106.0" />
+      <point x="17.557692307691468" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachKeyTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-150.75" y="-68.5" />
+      <point x="35319.56250000001" y="8998.0" />
+      <point x="49175.8015621005" y="8998.0" />
+      <point x="-229.13207547170168" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.AsynchronousCompletionTask" target="java.util.concurrent.CompletableFuture">
+      <point x="0.0" y="-14.5" />
+      <point x="12405.864601483663" y="4036.0" />
+      <point x="19366.93363757221" y="4036.0" />
+      <point x="-228.25" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingQueue.Itr" target="java.util.concurrent.LinkedBlockingQueue">
+      <point x="0.0" y="-123.5" />
+      <point x="2517.0" y="12309.0" />
+      <point x="2614.6666666666642" y="12309.0" />
+      <point x="0.0" y="475.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.OrAccept" target="java.util.concurrent.CompletableFuture">
+      <point x="206.75" y="-68.5" />
+      <point x="25444.562500000007" y="14138.0" />
+      <point x="25548.058637572205" y="14138.0" />
+      <point x="25548.058637572205" y="4036.0" />
+      <point x="20034.125945264517" y="4036.0" />
+      <point x="438.94230769230853" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.FutureTask" target="java.util.concurrent.RunnableFuture">
+      <point x="0.0" y="-408.5" />
+      <point x="28190.812500000007" y="12309.0" />
+      <point x="27951.887500000008" y="12309.0" />
+      <point x="58.400000000001455" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedDeque.DescendingItr" target="java.util.concurrent.ConcurrentLinkedDeque">
+      <point x="-61.0" y="-58.5" />
+      <point x="161.0625" y="17446.0" />
+      <point x="0.0" y="17446.0" />
+      <point x="0.0" y="17012.0" />
+      <point x="347.7" y="17012.0" />
+      <point x="-150.8" y="782.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.BiRelay" target="java.util.concurrent.CompletableFuture">
+      <point x="149.25" y="-47.5" />
+      <point x="23172.062500000007" y="14138.0" />
+      <point x="23830.718768150327" y="14138.0" />
+      <point x="23830.718768150327" y="4066.0" />
+      <point x="19928.779791418365" y="4066.0" />
+      <point x="333.5961538461561" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DelegatedExecutorService" target="java.util.concurrent.AbstractExecutorService">
+      <point x="-139.5" y="-210.5" />
+      <point x="9531.601044170024" y="9138.0" />
+      <point x="8035.309377503359" y="9138.0" />
+      <point x="186.0" y="146.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.TreeBin" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-124.25" y="-277.5" />
+      <point x="64780.3125" y="8938.0" />
+      <point x="49705.669486628816" y="8938.0" />
+      <point x="300.7358490566039" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.OrAccept" target="java.util.concurrent.CompletableFuture.BiCompletion">
+      <point x="-206.75" y="-68.5" />
+      <point x="25031.062500000007" y="14108.0" />
+      <point x="23561.031268150327" y="14108.0" />
+      <point x="298.375" y="47.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniApply" target="java.util.concurrent.CompletableFuture.UniCompletion">
+      <point x="-179.25" y="-68.5" />
+      <point x="18853.281268150327" y="12219.0" />
+      <point x="17357.437500000007" y="12219.0" />
+      <point x="118.0" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue.Itr" target="java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue">
+      <point x="0.0" y="-112.5" />
+      <point x="0.0" y="408.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.BaseIterator" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-121.0" y="-101.5" />
+      <point x="62705.81250000001" y="8998.0" />
+      <point x="49619.74495832692" y="8998.0" />
+      <point x="214.81132075471396" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledThreadPoolExecutor" target="java.util.concurrent.ScheduledExecutorService">
+      <point x="157.75" y="-397.5" />
+      <point x="7350.656268150331" y="12309.0" />
+      <point x="8460.18437750336" y="12309.0" />
+      <point x="-138.25" y="59.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachEntryTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-170.0" y="-68.5" />
+      <point x="48044.81250000001" y="12279.0" />
+      <point x="44845.933637572205" y="12279.0" />
+      <point x="39.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachTransformedEntryTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="234.25" y="-79.5" />
+      <point x="45427.56250000001" y="9118.0" />
+      <point x="49347.65061870428" y="9118.0" />
+      <point x="-57.28301886792178" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachEntryTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="170.0" y="-68.5" />
+      <point x="48384.81250000001" y="9148.0" />
+      <point x="49390.61288285523" y="9148.0" />
+      <point x="-14.320754716980446" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.Values" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="0.0" y="-155.5" />
+      <point x="70359.52083333334" y="12259.0" />
+      <point x="68936.19687750336" y="12259.0" />
+      <point x="233.33333333332848" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingDeque.LBDSpliterator" target="java.util.concurrent.LinkedBlockingDeque">
+      <point x="0.0" y="-167.5" />
+      <point x="1380.75" y="14108.0" />
+      <point x="3132.7000000000007" y="14108.0" />
+      <point x="-71.80000000000018" y="760.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.RunnableAdapter" target="java.util.concurrent.Executors">
+      <point x="-62.0" y="-79.5" />
+      <point x="10257.281268150331" y="9148.0" />
+      <point x="10215.601044170024" y="9148.0" />
+      <point x="42.5" y="278.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingQueue" target="java.util.concurrent.BlockingQueue">
+      <point x="0.0" y="-475.5" />
+      <point x="2614.6666666666642" y="9148.0" />
+      <point x="3156.9479348169953" y="9148.0" />
+      <point x="18.25" y="136.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentNavigableMap" target="java.util.concurrent.ConcurrentMap">
+      <point x="0.0" y="-125.5" />
+      <point x="68264.55104417003" y="5921.0" />
+      <point x="58954.79508025857" y="5921.0" />
+      <point x="125.0" y="136.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.BiApply" target="java.util.concurrent.CompletableFuture">
+      <point x="-237.25" y="-68.5" />
+      <point x="20433.562500000007" y="14078.0" />
+      <point x="20984.031268150327" y="14078.0" />
+      <point x="20984.031268150327" y="4106.0" />
+      <point x="19788.318252956826" y="4106.0" />
+      <point x="193.13461538461706" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue.TransferStack" target="java.util.concurrent.SynchronousQueue.Transferer">
+      <point x="-78.0" y="-189.5" />
+      <point x="5859.934377503352" y="14068.0" />
+      <point x="3916.5" y="14068.0" />
+      <point x="55.75" y="47.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniCompose" target="java.util.concurrent.CompletableFuture">
+      <point x="-217.75" y="-68.5" />
+      <point x="16601.656268150327" y="12169.0" />
+      <point x="16063.187500000007" y="12169.0" />
+      <point x="16063.187500000007" y="4086.0" />
+      <point x="19542.51056064913" y="4086.0" />
+      <point x="-52.67307692307804" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniRun" target="java.util.concurrent.CompletableFuture.UniCompletion">
+      <point x="142.25" y="-68.5" />
+      <point x="14253.65626815033" y="12209.0" />
+      <point x="17062.437500000007" y="12209.0" />
+      <point x="-177.0" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.RunnableAdapter" target="java.util.concurrent.Callable">
+      <point x="62.0" y="-79.5" />
+      <point x="10381.281268150331" y="9148.0" />
+      <point x="10664.43437750336" y="9148.0" />
+      <point x="-34.66666666666606" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapEntryIterator" target="java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapIter">
+      <point x="48.5" y="-58.5" />
+      <point x="66114.6875" y="15005.0" />
+      <point x="66264.35416666667" y="15005.0" />
+      <point x="-115.33333333332848" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.Phaser.QNode" target="java.util.concurrent.ForkJoinPool.ManagedBlocker">
+      <point x="-81.75" y="-177.5" />
+      <point x="17692.312500000007" y="13998.0" />
+      <point x="5646.208333333339" y="13998.0" />
+      <point x="38.25" y="47.5" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.FairSync" target="java.util.concurrent.Semaphore">
+      <point x="51.25" y="-68.5" />
+      <point x="18783.312500000007" y="14058.0" />
+      <point x="19401.531268150327" y="14058.0" />
+      <point x="19401.531268150327" y="12209.0" />
+      <point x="18665.687500000007" y="12209.0" />
+      <point x="0.0" y="287.5" />
+    </edge>
+    <edge source="java.util.concurrent.CopyOnWriteArrayList.COWSubList" target="java.util.concurrent.CopyOnWriteArrayList">
+      <point x="0.0" y="-299.5" />
+      <point x="1906.0" y="16775.0" />
+      <point x="1654.3333333333333" y="16775.0" />
+      <point x="120.33333333333326" y="661.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.CollectionView" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="0.0" y="-232.5" />
+      <point x="30303.734681742226" y="8928.0" />
+      <point x="49075.55627908165" y="8928.0" />
+      <point x="-329.3773584905648" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceValuesToLongTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-287.75" y="-144.5" />
+      <point x="33342.56250000001" y="8978.0" />
+      <point x="49147.16005266654" y="8978.0" />
+      <point x="-257.7735849056626" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.BiCompletion" target="java.util.concurrent.CompletableFuture">
+      <point x="170.5" y="-47.5" />
+      <point x="23433.156268150327" y="4076.0" />
+      <point x="19893.66440680298" y="4076.0" />
+      <point x="298.4807692307695" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.KeyIterator" target="java.util.concurrent.ConcurrentSkipListMap.Iter">
+      <point x="-33.25" y="-47.5" />
+      <point x="68652.52083333334" y="14138.0" />
+      <point x="68511.68750000001" y="14138.0" />
+      <point x="70.66666666667152" y="112.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.Signaller" target="java.util.concurrent.ForkJoinPool.ManagedBlocker">
+      <point x="-89.33333333333394" y="-144.5" />
+      <point x="11347.375000000004" y="14008.0" />
+      <point x="5569.708333333339" y="14008.0" />
+      <point x="-38.25" y="47.5" />
+    </edge>
+    <edge source="java.util.concurrent.RunnableScheduledFuture" target="java.util.concurrent.ScheduledFuture">
+      <point x="-52.25" y="-26.5" />
+      <point x="27091.288544170027" y="12259.0" />
+      <point x="26771.812500000007" y="12259.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinTask.AdaptedRunnable" target="java.util.concurrent.RunnableFuture">
+      <point x="83.66666666666788" y="-122.5" />
+      <point x="26713.104166666675" y="12289.0" />
+      <point x="27864.287500000006" y="12289.0" />
+      <point x="-29.200000000000728" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.BiRun" target="java.util.concurrent.CompletableFuture.BiCompletion">
+      <point x="-180.0" y="-68.5" />
+      <point x="23521.312500000007" y="14128.0" />
+      <point x="23390.531268150327" y="14128.0" />
+      <point x="127.875" y="47.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceValuesToDoubleTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-305.75" y="-144.5" />
+      <point x="58908.56250000001" y="12179.0" />
+      <point x="44975.933637572205" y="12179.0" />
+      <point x="169.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.DelayQueue" target="java.util.concurrent.Delayed">
+      <point x="74.5" y="-310.5" />
+      <point x="17761.812500000007" y="9148.0" />
+      <point x="23586.218768150327" y="9148.0" />
+      <point x="-51.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachKeyTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="150.75" y="-68.5" />
+      <point x="35621.06250000001" y="12219.0" />
+      <point x="44676.933637572205" y="12219.0" />
+      <point x="-130.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.EntryIterator" target="java.util.concurrent.ConcurrentHashMap.BaseIterator">
+      <point x="-121.5" y="-47.5" />
+      <point x="63090.5625" y="14138.0" />
+      <point x="62988.14583333334" y="14138.0" />
+      <point x="161.33333333333576" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.OrRelay" target="java.util.concurrent.CompletableFuture">
+      <point x="-153.5" y="-47.5" />
+      <point x="22243.812500000007" y="14078.0" />
+      <point x="22793.343768150327" y="14078.0" />
+      <point x="22793.343768150327" y="4086.0" />
+      <point x="19858.549022187595" y="4086.0" />
+      <point x="263.3653846153866" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceEntriesTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-316.25" y="-133.5" />
+      <point x="30217.062500000007" y="12159.0" />
+      <point x="30727.183637572205" y="12159.0" />
+      <point x="30727.183637572205" y="8938.0" />
+      <point x="49089.87703379862" y="8938.0" />
+      <point x="-315.05660377358436" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedThreadFactory" target="java.util.concurrent.Executors.DefaultThreadFactory">
+      <point x="59.0" y="-79.5" />
+      <point x="10798.031268150331" y="12169.0" />
+      <point x="11293.281268150331" y="12169.0" />
+      <point x="0.0" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.KeySetView" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="82.75" y="-188.5" />
+      <point x="31434.062500000007" y="8948.0" />
+      <point x="49104.19778851561" y="8948.0" />
+      <point x="-300.7358490566039" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.SearchKeysTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="206.25" y="-100.5" />
+      <point x="43641.56250000001" y="12299.0" />
+      <point x="44780.933637572205" y="12299.0" />
+      <point x="-26.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ValueSpliterator" target="java.util.concurrent.ConcurrentHashMap.Traverser">
+      <point x="-90.25" y="-112.5" />
+      <point x="64365.3125" y="12299.0" />
+      <point x="63895.0625" y="12299.0" />
+      <point x="108.375" y="167.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadLocalRandom.RandomLongsSpliterator" target="java.util.concurrent.ThreadLocalRandom">
+      <point x="0.0" y="-145.5" />
+      <point x="3067.0" y="16863.0" />
+      <point x="2780.3333333333335" y="16863.0" />
+      <point x="112.33333333333348" y="705.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.OrApply" target="java.util.concurrent.CompletableFuture.BiCompletion">
+      <point x="217.75" y="-68.5" />
+      <point x="19958.562500000007" y="14088.0" />
+      <point x="22964.281268150327" y="14088.0" />
+      <point x="-298.375" y="47.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledFuture" target="java.util.concurrent.Delayed">
+      <point x="-38.25" y="-14.5" />
+      <point x="26733.562500000007" y="9148.0" />
+      <point x="23688.218768150327" y="9148.0" />
+      <point x="51.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceKeysToLongTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="281.75" y="-144.5" />
+      <point x="60691.06250000001" y="9038.0" />
+      <point x="49562.461939459" y="9038.0" />
+      <point x="157.52830188679218" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedDeque.Itr" target="java.util.concurrent.ConcurrentLinkedDeque">
+      <point x="61.0" y="-58.5" />
+      <point x="816.0625" y="17446.0" />
+      <point x="944.0" y="17446.0" />
+      <point x="944.0" y="17012.0" />
+      <point x="649.3" y="17012.0" />
+      <point x="150.79999999999995" y="782.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue.TransferStack.SNode" target="java.util.concurrent.SynchronousQueue.TransferStack">
+      <point x="0.0" y="-178.5" />
+      <point x="0.0" y="189.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToIntTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-298.75" y="-144.5" />
+      <point x="37967.56250000001" y="9028.0" />
+      <point x="49218.76382625145" y="9028.0" />
+      <point x="-186.16981132075307" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedQueue.Itr" target="java.util.concurrent.ConcurrentLinkedQueue">
+      <point x="0.0" y="-123.5" />
+      <point x="4056.0" y="16181.0" />
+      <point x="3901.6666666666665" y="16181.0" />
+      <point x="125.66666666666652" y="364.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedDeque.DescendingItr" target="java.util.concurrent.ConcurrentLinkedDeque.AbstractItr">
+      <point x="61.0" y="-58.5" />
+      <point x="283.0625" y="17446.0" />
+      <point x="437.5" y="17446.0" />
+      <point x="-61.0" y="145.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.ThreadPerTaskExecutor" target="java.util.concurrent.Executor">
+      <point x="-53.25" y="-47.5" />
+      <point x="50.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.TreeBin" target="java.util.concurrent.ConcurrentHashMap.Node">
+      <point x="124.25" y="-277.5" />
+      <point x="65028.8125" y="12309.0" />
+      <point x="65305.5625" y="12309.0" />
+      <point x="-87.0" y="177.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.KeyIterator" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="33.25" y="-47.5" />
+      <point x="68719.02083333334" y="12309.0" />
+      <point x="68736.19687750336" y="12309.0" />
+      <point x="33.33333333332848" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniApply" target="java.util.concurrent.CompletableFuture">
+      <point x="179.25" y="-68.5" />
+      <point x="19211.781268150327" y="4116.0" />
+      <point x="19647.856714495287" y="4116.0" />
+      <point x="52.67307692307804" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinPool.InnocuousForkJoinWorkerThreadFactory" target="java.util.concurrent.ForkJoinPool">
+      <point x="-89.5" y="-68.5" />
+      <point x="6203.434377503359" y="14048.0" />
+      <point x="4200.500000000004" y="14048.0" />
+      <point x="4200.500000000004" y="12289.0" />
+      <point x="4711.4166666666715" y="12289.0" />
+      <point x="-255.41666666666788" y="1475.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachTransformedValueTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-230.75" y="-79.5" />
+      <point x="34456.56250000001" y="8988.0" />
+      <point x="49161.48080738353" y="8988.0" />
+      <point x="-243.45283018868213" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingDeque.Node" target="java.util.concurrent.LinkedBlockingDeque">
+      <point x="0.0" y="-69.5" />
+      <point x="1643.75" y="14118.0" />
+      <point x="3204.5" y="14118.0" />
+      <point x="0.0" y="760.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.CounterCell" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="0.0" y="-47.5" />
+      <point x="66142.3125" y="8888.0" />
+      <point x="49777.27326021371" y="8888.0" />
+      <point x="372.33962264150614" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniAccept" target="java.util.concurrent.CompletableFuture.UniCompletion">
+      <point x="168.25" y="-68.5" />
+      <point x="13432.656268150331" y="12199.0" />
+      <point x="17003.437500000007" y="12199.0" />
+      <point x="-236.0" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DefaultThreadFactory" target="java.util.concurrent.ThreadFactory">
+      <point x="59.0" y="-101.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.OrRun" target="java.util.concurrent.CompletableFuture">
+      <point x="180.75" y="-68.5" />
+      <point x="24623.562500000007" y="14138.0" />
+      <point x="25132.058637572205" y="14138.0" />
+      <point x="25132.058637572205" y="4046.0" />
+      <point x="19999.01056064913" y="4046.0" />
+      <point x="403.82692307692196" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniHandle" target="java.util.concurrent.CompletableFuture">
+      <point x="-203.0" y="-68.5" />
+      <point x="14618.90626815033" y="12189.0" />
+      <point x="14981.062500000007" y="12189.0" />
+      <point x="14981.062500000007" y="4066.0" />
+      <point x="19472.27979141836" y="4066.0" />
+      <point x="-122.90384615384755" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceEntriesTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="316.25" y="-133.5" />
+      <point x="30849.562500000007" y="12179.0" />
+      <point x="44624.933637572205" y="12179.0" />
+      <point x="-182.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.KeySetView" target="java.util.concurrent.ConcurrentHashMap.CollectionView">
+      <point x="-82.75" y="-188.5" />
+      <point x="31268.562500000007" y="12149.0" />
+      <point x="30303.734681742226" y="12149.0" />
+      <point x="0.0" y="232.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue.TransferQueue" target="java.util.concurrent.SynchronousQueue.Transferer">
+      <point x="81.75" y="-189.5" />
+      <point x="5680.184377503352" y="14078.0" />
+      <point x="3805.0" y="14078.0" />
+      <point x="-55.75" y="47.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.KeySpliterator" target="java.util.concurrent.ConcurrentSkipListMap.CSLMSpliterator">
+      <point x="-130.0" y="-101.5" />
+      <point x="67854.4375" y="14138.0" />
+      <point x="67428.64197090553" y="14138.0" />
+      <point x="178.33333333332848" y="112.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledThreadPoolExecutor.ScheduledFutureTask" target="java.util.concurrent.ScheduledThreadPoolExecutor">
+      <point x="-117.0" y="-199.5" />
+      <point x="26406.288544170027" y="13968.0" />
+      <point x="7350.656268150331" y="13968.0" />
+      <point x="157.75" y="397.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceValuesToDoubleTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="305.75" y="-144.5" />
+      <point x="59520.06250000001" y="9048.0" />
+      <point x="49548.141184742024" y="9048.0" />
+      <point x="143.20754716981173" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToDoubleTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-310.5" y="-144.5" />
+      <point x="46923.31250000001" y="12289.0" />
+      <point x="44832.933637572205" y="12289.0" />
+      <point x="26.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinTask" target="java.util.concurrent.Future">
+      <point x="0.0" y="-837.5" />
+      <point x="26581.593768150327" y="897.0" />
+      <point x="27430.406268150327" y="897.0" />
+      <point x="-25.875" y="80.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory" target="java.util.concurrent.ForkJoinPool">
+      <point x="0.0" y="-26.5" />
+      <point x="4390.000000000004" y="12299.0" />
+      <point x="4813.583333333339" y="12299.0" />
+      <point x="-153.25" y="1475.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.TreeNode" target="java.util.concurrent.ConcurrentHashMap.Node">
+      <point x="-97.5" y="-123.5" />
+      <point x="65544.5625" y="12309.0" />
+      <point x="65421.5625" y="12309.0" />
+      <point x="29.0" y="177.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniCompose" target="java.util.concurrent.CompletableFuture.UniCompletion">
+      <point x="217.75" y="-68.5" />
+      <point x="17037.156268150327" y="12239.0" />
+      <point x="17239.437500000007" y="12239.0" />
+      <point x="0.0" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.DelegatedScheduledExecutorService" target="java.util.concurrent.ScheduledExecutorService">
+      <point x="-184.33333333333394" y="-101.5" />
+      <point x="9304.572934816995" y="12219.0" />
+      <point x="8736.68437750336" y="12219.0" />
+      <point x="138.25" y="59.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedTransferQueue.Itr" target="java.util.concurrent.LinkedTransferQueue">
+      <point x="0.0" y="-134.5" />
+      <point x="1099.25" y="14088.0" />
+      <point x="2155.5" y="14088.0" />
+      <point x="119.0" y="683.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceKeysTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-305.5" y="-133.5" />
+      <point x="36732.31250000001" y="9018.0" />
+      <point x="49204.44307153448" y="9018.0" />
+      <point x="-200.49056603773352" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.Segment" target="java.util.concurrent.locks">
+      <point x="-46.5" y="-58.5" />
+      <point x="23680.718768150327" y="12159.0" />
+      <point x="14260.288544170025" y="12159.0" />
+      <point x="46.125" y="14.5" />
+    </edge>
+    <edge source="java.util.concurrent.CountDownLatch.Sync" target="java.util.concurrent.locks">
+      <point x="60.5" y="-90.5" />
+      <point x="12847.406268150331" y="12189.0" />
+      <point x="14198.788544170025" y="12189.0" />
+      <point x="-15.375" y="14.5" />
+    </edge>
+    <edge source="java.util.concurrent.PriorityBlockingQueue" target="java.util.concurrent.BlockingQueue">
+      <point x="0.0" y="-574.5" />
+      <point x="914.25" y="9118.0" />
+      <point x="3047.4479348169953" y="9118.0" />
+      <point x="-91.25" y="136.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachTransformedEntryTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-234.25" y="-79.5" />
+      <point x="44959.06250000001" y="12309.0" />
+      <point x="44806.933637572205" y="12309.0" />
+      <point x="0.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedCallable" target="java.util.concurrent.Callable">
+      <point x="63.5" y="-79.5" />
+      <point x="11091.781268150331" y="9118.0" />
+      <point x="10733.767710836695" y="9118.0" />
+      <point x="34.66666666666606" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy" target="java.util.concurrent.RejectedExecutionHandler">
+      <point x="-100.25" y="-47.5" />
+      <point x="8470.656268150331" y="12259.0" />
+      <point x="6873.080210836692" y="12259.0" />
+      <point x="50.125" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.EntryIterator" target="java.util.concurrent.ConcurrentSkipListMap.Iter">
+      <point x="-41.75" y="-47.5" />
+      <point x="68474.02083333334" y="14138.0" />
+      <point x="68441.02083333334" y="14138.0" />
+      <point x="0.0" y="112.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.CSLMSpliterator" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="0.0" y="-112.5" />
+      <point x="67250.3086375722" y="12259.0" />
+      <point x="68536.19687750336" y="12259.0" />
+      <point x="-166.66666666667152" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedCallable" target="java.util.concurrent.Executors">
+      <point x="-63.5" y="-79.5" />
+      <point x="10964.781268150331" y="9128.0" />
+      <point x="10385.601044170024" y="9128.0" />
+      <point x="212.5" y="278.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor.AbortPolicy" target="java.util.concurrent.RejectedExecutionHandler">
+      <point x="-100.25" y="-47.5" />
+      <point x="8049.656268150331" y="12279.0" />
+      <point x="6772.830210836692" y="12279.0" />
+      <point x="-50.125" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.NonfairSync" target="java.util.concurrent.Semaphore">
+      <point x="51.25" y="-68.5" />
+      <point x="19008.312500000007" y="14068.0" />
+      <point x="19626.531268150327" y="14068.0" />
+      <point x="19626.531268150327" y="12199.0" />
+      <point x="18769.687500000007" y="12199.0" />
+      <point x="104.0" y="287.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.OrRelay" target="java.util.concurrent.CompletableFuture.BiCompletion">
+      <point x="153.5" y="-47.5" />
+      <point x="22550.812500000007" y="14118.0" />
+      <point x="23220.031268150327" y="14118.0" />
+      <point x="-42.625" y="47.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.SearchValuesTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="209.25" y="-100.5" />
+      <point x="44495.56250000001" y="12309.0" />
+      <point x="44793.933637572205" y="12309.0" />
+      <point x="-13.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.Completion" target="java.util.concurrent.CompletableFuture.AsynchronousCompletionTask">
+      <point x="0.0" y="-122.5" />
+      <point x="12262.281268150331" y="5921.0" />
+      <point x="12329.197934816995" y="5921.0" />
+      <point x="-76.66666666666606" y="14.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledFuture" target="java.util.concurrent.Future">
+      <point x="38.25" y="-14.5" />
+      <point x="26810.062500000007" y="8878.0" />
+      <point x="37106.409681742225" y="8878.0" />
+      <point x="37106.409681742225" y="897.0" />
+      <point x="27482.156268150327" y="897.0" />
+      <point x="25.875" y="80.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.EntrySpliterator" target="java.util.concurrent.ConcurrentHashMap.Traverser">
+      <point x="135.5" y="-123.5" />
+      <point x="-36.125" y="167.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniWhenComplete" target="java.util.concurrent.CompletableFuture.UniCompletion">
+      <point x="211.0" y="-68.5" />
+      <point x="15880.90626815033" y="12229.0" />
+      <point x="17180.437500000007" y="12229.0" />
+      <point x="-59.0" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue.LifoWaitQueue" target="java.util.concurrent.SynchronousQueue.WaitQueue">
+      <point x="-46.5" y="-47.5" />
+      <point x="5275.434377503352" y="14108.0" />
+      <point x="3518.75" y="14108.0" />
+      <point x="33.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor.AbortPolicy" target="java.util.concurrent.ThreadPoolExecutor">
+      <point x="100.25" y="-47.5" />
+      <point x="8250.156268150331" y="12269.0" />
+      <point x="7839.351044170027" y="12269.0" />
+      <point x="-66.08333333333303" y="958.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToIntTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-274.5" y="-144.5" />
+      <point x="31811.312500000007" y="8958.0" />
+      <point x="49118.51854323258" y="8958.0" />
+      <point x="-286.41509433962347" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToIntTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="274.5" y="-144.5" />
+      <point x="32360.312500000007" y="12189.0" />
+      <point x="44637.933637572205" y="12189.0" />
+      <point x="-169.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ExecutorCompletionService" target="java.util.concurrent.CompletionService">
+      <point x="0.0" y="-167.5" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.EntrySetView" target="java.util.concurrent.ConcurrentHashMap.CollectionView">
+      <point x="-95.0" y="-156.5" />
+      <point x="32749.812500000007" y="12139.0" />
+      <point x="30415.068015075558" y="12139.0" />
+      <point x="111.33333333333212" y="232.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor.CallerRunsPolicy" target="java.util.concurrent.RejectedExecutionHandler">
+      <point x="-100.25" y="-47.5" />
+      <point x="8891.656268150331" y="12239.0" />
+      <point x="6973.330210836692" y="12239.0" />
+      <point x="150.375" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledThreadPoolExecutor" target="java.util.concurrent.ThreadPoolExecutor">
+      <point x="-157.75" y="-397.5" />
+      <point x="7035.156268150331" y="12299.0" />
+      <point x="7575.017710836692" y="12299.0" />
+      <point x="-330.41666666666697" y="958.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.BiRelay" target="java.util.concurrent.CompletableFuture.BiCompletion">
+      <point x="-149.25" y="-47.5" />
+      <point x="22873.562500000007" y="14128.0" />
+      <point x="23305.281268150327" y="14128.0" />
+      <point x="42.625" y="47.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToLongTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-292.5" y="-144.5" />
+      <point x="29003.312500000007" y="8918.0" />
+      <point x="49061.23552436466" y="8918.0" />
+      <point x="-343.69811320754525" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.ValueIterator" target="java.util.concurrent.ConcurrentSkipListMap.Iter">
+      <point x="36.25" y="-47.5" />
+      <point x="68373.1875" y="14138.0" />
+      <point x="68370.35416666667" y="14138.0" />
+      <point x="-70.66666666667152" y="112.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor.DiscardOldestPolicy" target="java.util.concurrent.ThreadPoolExecutor">
+      <point x="100.25" y="-47.5" />
+      <point x="8671.156268150331" y="12249.0" />
+      <point x="7971.517710836692" y="12249.0" />
+      <point x="66.08333333333303" y="958.5" />
+    </edge>
+    <edge source="java.util.concurrent.DelayQueue" target="java.util.concurrent.BlockingQueue">
+      <point x="-74.5" y="-310.5" />
+      <point x="17612.812500000007" y="9098.0" />
+      <point x="3266.4479348169953" y="9098.0" />
+      <point x="127.75" y="136.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.SearchMappingsTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-233.75" y="-100.5" />
+      <point x="40186.56250000001" y="9048.0" />
+      <point x="49247.40533568541" y="9048.0" />
+      <point x="-157.52830188679218" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.Completion" target="java.util.concurrent.CompletableFuture">
+      <point x="-89.33333333333576" y="-122.5" />
+      <point x="12172.947934816995" y="5921.0" />
+      <point x="12150.86460148366" y="5921.0" />
+      <point x="12150.86460148366" y="4026.0" />
+      <point x="19331.818252956826" y="4026.0" />
+      <point x="-263.36538461538294" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.Sync" target="java.util.concurrent.Semaphore">
+      <point x="63.0" y="-112.5" />
+      <point x="16300.90626815033" y="12249.0" />
+      <point x="18561.687500000007" y="12249.0" />
+      <point x="-104.0" y="287.5" />
+    </edge>
+    <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.concurrent.BlockingQueue">
+      <point x="0.0" y="-464.5" />
+      <point x="1469.25" y="9128.0" />
+      <point x="3083.9479348169953" y="9128.0" />
+      <point x="-54.75" y="136.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceKeysToIntTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="263.75" y="-144.5" />
+      <point x="58319.06250000001" y="9058.0" />
+      <point x="49533.820430025036" y="9058.0" />
+      <point x="128.8867924528313" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinPool.InnocuousForkJoinWorkerThreadFactory" target="java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory">
+      <point x="89.5" y="-68.5" />
+      <point x="6382.434377503359" y="14038.0" />
+      <point x="4300.500000000004" y="14038.0" />
+      <point x="-89.5" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor.DiscardPolicy" target="java.util.concurrent.RejectedExecutionHandler">
+      <point x="-100.25" y="-47.5" />
+      <point x="7628.656268150331" y="12289.0" />
+      <point x="6672.580210836692" y="12289.0" />
+      <point x="-150.375" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniExceptionally" target="java.util.concurrent.CompletableFuture.UniCompletion">
+      <point x="-189.25" y="-68.5" />
+      <point x="17706.281268150327" y="12229.0" />
+      <point x="17298.437500000007" y="12229.0" />
+      <point x="59.0" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.KeyIterator" target="java.util.concurrent.ConcurrentHashMap.BaseIterator">
+      <point x="119.25" y="-58.5" />
+      <point x="62320.81250000001" y="14138.0" />
+      <point x="62665.47916666667" y="14138.0" />
+      <point x="-161.33333333333576" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceKeysToLongTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-281.75" y="-144.5" />
+      <point x="60127.56250000001" y="12169.0" />
+      <point x="44988.933637572205" y="12169.0" />
+      <point x="182.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinWorkerThread.InnocuousForkJoinWorkerThread" target="java.util.concurrent.ForkJoinWorkerThread">
+      <point x="-96.0" y="-122.5" />
+      <point x="5231.5" y="15873.0" />
+      <point x="5194.25" y="15873.0" />
+      <point x="-133.25" y="210.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue.TransferQueue.QNode" target="java.util.concurrent.SynchronousQueue.TransferQueue">
+      <point x="0.0" y="-178.5" />
+      <point x="0.0" y="189.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceMappingsTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="340.5" y="-133.5" />
+      <point x="41929.31250000001" y="12279.0" />
+      <point x="44754.933637572205" y="12279.0" />
+      <point x="-52.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingDeque.Itr" target="java.util.concurrent.LinkedBlockingDeque.AbstractItr">
+      <point x="61.0" y="-58.5" />
+      <point x="2511.5093775033565" y="15005.0" />
+      <point x="2749.2593775033565" y="15005.0" />
+      <point x="-61.0" y="156.5" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue.TransferQueue" target="java.util.concurrent.SynchronousQueue">
+      <point x="-81.75" y="-189.5" />
+      <point x="5516.684377503352" y="14088.0" />
+      <point x="3738.75" y="14088.0" />
+      <point x="3738.75" y="12299.0" />
+      <point x="3879.75" y="12299.0" />
+      <point x="30.0" y="441.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.OrRun" target="java.util.concurrent.CompletableFuture.BiCompletion">
+      <point x="-180.75" y="-68.5" />
+      <point x="24262.062500000007" y="14118.0" />
+      <point x="23475.781268150327" y="14118.0" />
+      <point x="213.125" y="47.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedTransferQueue.LTQSpliterator" target="java.util.concurrent.LinkedTransferQueue">
+      <point x="0.0" y="-156.5" />
+      <point x="345.0" y="14068.0" />
+      <point x="1917.5" y="14068.0" />
+      <point x="-119.0" y="683.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.BiAccept" target="java.util.concurrent.CompletableFuture.BiCompletion">
+      <point x="226.25" y="-68.5" />
+      <point x="21844.062500000007" y="14108.0" />
+      <point x="23134.781268150327" y="14108.0" />
+      <point x="-127.875" y="47.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceValuesTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-311.5" y="-133.5" />
+      <point x="48886.31250000001" y="12269.0" />
+      <point x="44858.933637572205" y="12269.0" />
+      <point x="52.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedCallableUsingCurrentClassLoader" target="java.util.concurrent.Callable">
+      <point x="104.5" y="-90.5" />
+      <point x="10776.781268150331" y="9148.0" />
+      <point x="10699.101044170027" y="9148.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapIter" target="java.util.concurrent.ConcurrentSkipListMap.SubMap">
+      <point x="0.0" y="-178.5" />
+      <point x="66379.6875" y="14138.0" />
+      <point x="66431.4375" y="14138.0" />
+      <point x="64.875" y="804.5" />
+    </edge>
+    <edge source="java.util.concurrent.RunnableFuture" target="java.util.concurrent.Future">
+      <point x="0.0" y="-26.5" />
+      <point x="27893.487500000007" y="8888.0" />
+      <point x="37117.409681742225" y="8888.0" />
+      <point x="37117.409681742225" y="887.0" />
+      <point x="27533.906268150327" y="887.0" />
+      <point x="77.625" y="80.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.Completion" target="java.util.concurrent.ForkJoinTask">
+      <point x="89.33333333333394" y="-122.5" />
+      <point x="12351.614601483667" y="5861.0" />
+      <point x="26395.968768150327" y="5861.0" />
+      <point x="-185.625" y="837.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.EntrySpliterator" target="java.util.concurrent.ConcurrentSkipListMap.CSLMSpliterator">
+      <point x="-132.25" y="-101.5" />
+      <point x="67307.6875" y="14138.0" />
+      <point x="67250.3086375722" y="14138.0" />
+      <point x="0.0" y="112.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapEntry" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="0.0" y="-155.5" />
+      <point x="45251.06250000001" y="9108.0" />
+      <point x="49333.32986398731" y="9108.0" />
+      <point x="-71.60377358490223" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniCompletion" target="java.util.concurrent.CompletableFuture.Completion">
+      <point x="-132.75" y="-101.5" />
+      <point x="17106.687500000007" y="9148.0" />
+      <point x="12351.614601483667" y="9148.0" />
+      <point x="89.33333333333394" y="122.5" />
+    </edge>
+    <edge source="java.util.concurrent.ArrayBlockingQueue.Itr" target="java.util.concurrent.ArrayBlockingQueue">
+      <point x="0.0" y="-299.5" />
+      <point x="1290.0" y="12309.0" />
+      <point x="1361.0" y="12309.0" />
+      <point x="-108.25" y="464.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.BulkTask" target="java.util.concurrent.CountedCompleter">
+      <point x="-100.75" y="-178.5" />
+      <point x="44706.183637572205" y="8868.0" />
+      <point x="35910.53854417003" y="8868.0" />
+      <point x="0.0" y="342.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinTask.AdaptedRunnableAction" target="java.util.concurrent.RunnableFuture">
+      <point x="92.0" y="-111.5" />
+      <point x="27498.038544170027" y="12309.0" />
+      <point x="27922.687500000007" y="12309.0" />
+      <point x="29.200000000000728" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.HeadIndex" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="101.5" y="-47.5" />
+      <point x="70195.02083333334" y="12269.0" />
+      <point x="68902.86354417003" y="12269.0" />
+      <point x="200.0" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.EntryIterator" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="41.75" y="-47.5" />
+      <point x="68557.52083333334" y="12309.0" />
+      <point x="68702.86354417003" y="12309.0" />
+      <point x="0.0" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.AsyncSupply" target="java.util.concurrent.ForkJoinTask">
+      <point x="127.33333333333212" y="-111.5" />
+      <point x="19711.489601483663" y="5881.0" />
+      <point x="26445.468768150327" y="5881.0" />
+      <point x="-136.125" y="837.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.KeySpliterator" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="87.25" y="-112.5" />
+      <point x="64167.8125" y="8958.0" />
+      <point x="49677.027977194855" y="8958.0" />
+      <point x="272.094339622643" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.Signaller" target="java.util.concurrent.CompletableFuture.Completion">
+      <point x="89.33333333333576" y="-144.5" />
+      <point x="11526.041666666675" y="14138.0" />
+      <point x="12262.281268150331" y="14138.0" />
+      <point x="0.0" y="122.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.PrivilegedThreadFactory" target="java.util.concurrent.Executors">
+      <point x="-59.0" y="-79.5" />
+      <point x="10680.031268150331" y="12309.0" />
+      <point x="10184.781268150331" y="12309.0" />
+      <point x="10184.781268150331" y="9148.0" />
+      <point x="10130.601044170024" y="9148.0" />
+      <point x="-42.5" y="278.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadLocalRandom.RandomIntsSpliterator" target="java.util.concurrent.ThreadLocalRandom">
+      <point x="0.0" y="-145.5" />
+      <point x="2288.5" y="16863.0" />
+      <point x="2555.6666666666665" y="16863.0" />
+      <point x="-112.33333333333348" y="705.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ValuesView" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-78.0" y="-134.5" />
+      <point x="28456.812500000007" y="8908.0" />
+      <point x="49046.91476964769" y="8908.0" />
+      <point x="-358.0188679245257" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToLongTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="316.75" y="-144.5" />
+      <point x="56250.06250000001" y="9078.0" />
+      <point x="49505.178920591075" y="9078.0" />
+      <point x="100.2452830188704" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.KeySet" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="0.0" y="-364.5" />
+      <point x="68909.02083333334" y="12309.0" />
+      <point x="68769.5302108367" y="12309.0" />
+      <point x="66.66666666667152" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.Node" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="0.0" y="-211.5" />
+      <point x="69639.52083333334" y="12289.0" />
+      <point x="68836.19687750336" y="12289.0" />
+      <point x="133.33333333332848" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.TransferQueue" target="java.util.concurrent.BlockingQueue">
+      <point x="0.0" y="-80.5" />
+      <point x="2036.5" y="9138.0" />
+      <point x="3120.4479348169953" y="9138.0" />
+      <point x="-18.25" y="136.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachValueTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="153.75" y="-68.5" />
+      <point x="36253.06250000001" y="12229.0" />
+      <point x="44689.933637572205" y="12229.0" />
+      <point x="-117.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinPool.DefaultForkJoinWorkerThreadFactory" target="java.util.concurrent.ForkJoinPool.ForkJoinWorkerThreadFactory">
+      <point x="-89.5" y="-47.5" />
+      <point x="6754.934377503359" y="14028.0" />
+      <point x="4479.500000000004" y="14028.0" />
+      <point x="89.5" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor.DiscardPolicy" target="java.util.concurrent.ThreadPoolExecutor">
+      <point x="100.25" y="-47.5" />
+      <point x="7829.156268150331" y="12299.0" />
+      <point x="7707.184377503359" y="12299.0" />
+      <point x="-198.25" y="958.5" />
+    </edge>
+    <edge source="java.util.concurrent.Exchanger.Participant" target="java.util.concurrent.Exchanger">
+      <point x="0.0" y="-47.5" />
+      <point x="4933.0" y="16029.0" />
+      <point x="4931.5" y="16029.0" />
+      <point x="84.5" y="288.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedDeque.AbstractItr" target="java.util.concurrent.ConcurrentLinkedDeque">
+      <point x="0.0" y="-145.5" />
+      <point x="0.0" y="782.5" />
+    </edge>
+    <edge source="java.util.concurrent.AbstractExecutorService" target="java.util.concurrent.ExecutorService">
+      <point x="0.0" y="-146.5" />
+      <point x="7849.309377503359" y="5921.0" />
+      <point x="8131.000000000007" y="5921.0" />
+      <point x="-139.5" y="157.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledThreadPoolExecutor.DelayedWorkQueue" target="java.util.concurrent.BlockingQueue">
+      <point x="-128.0" y="-408.5" />
+      <point x="3190.3333333333358" y="14048.0" />
+      <point x="503.0" y="14048.0" />
+      <point x="503.0" y="9108.0" />
+      <point x="3010.9479348169953" y="9108.0" />
+      <point x="-127.75" y="136.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.EntrySetView" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="95.0" y="-156.5" />
+      <point x="32939.81250000001" y="8968.0" />
+      <point x="49132.83929794957" y="8968.0" />
+      <point x="-272.094339622643" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingQueue.Node" target="java.util.concurrent.LinkedBlockingQueue">
+      <point x="0.0" y="-58.5" />
+      <point x="2305.0" y="12309.0" />
+      <point x="2494.9999999999964" y="12309.0" />
+      <point x="-119.66666666666652" y="475.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.ValueSpliterator" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="-133.0" y="-80.5" />
+      <point x="66756.4375" y="14138.0" />
+      <point x="66839.60416666667" y="14138.0" />
+      <point x="66839.60416666667" y="12249.0" />
+      <point x="68502.86354417003" y="12249.0" />
+      <point x="-200.0" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.PriorityBlockingQueue.Itr" target="java.util.concurrent.PriorityBlockingQueue">
+      <point x="0.0" y="-112.5" />
+      <point x="132.75" y="574.5" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledExecutorService" target="java.util.concurrent.ExecutorService">
+      <point x="0.0" y="-59.5" />
+      <point x="8598.43437750336" y="9148.0" />
+      <point x="8994.43437750336" y="9148.0" />
+      <point x="8994.43437750336" y="5921.0" />
+      <point x="8410.000000000007" y="5921.0" />
+      <point x="139.5" y="157.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinTask.AdaptedCallable" target="java.util.concurrent.RunnableFuture">
+      <point x="103.66666666666788" y="-122.5" />
+      <point x="26432.104166666675" y="12279.0" />
+      <point x="27835.087500000005" y="12279.0" />
+      <point x="-58.400000000001455" y="26.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor.Worker" target="java.util.concurrent.locks">
+      <point x="56.0" y="-199.5" />
+      <point x="11045.031268150331" y="12179.0" />
+      <point x="14168.038544170025" y="12179.0" />
+      <point x="-46.125" y="14.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.CoCompletion" target="java.util.concurrent.CompletableFuture.Completion">
+      <point x="73.75" y="-79.5" />
+      <point x="11775.531268150331" y="9148.0" />
+      <point x="12172.947934816995" y="9148.0" />
+      <point x="-89.33333333333394" y="122.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.BiCompletion" target="java.util.concurrent.CompletableFuture.UniCompletion">
+      <point x="-170.5" y="-47.5" />
+      <point x="23092.156268150327" y="12179.0" />
+      <point x="17475.437500000007" y="12179.0" />
+      <point x="236.0" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ValueIterator" target="java.util.concurrent.ConcurrentHashMap.BaseIterator">
+      <point x="122.25" y="-58.5" />
+      <point x="0.0" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.SearchValuesTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-209.25" y="-100.5" />
+      <point x="44077.06250000001" y="12159.0" />
+      <point x="44186.81250000001" y="12159.0" />
+      <point x="44186.81250000001" y="9088.0" />
+      <point x="49304.688354553335" y="9088.0" />
+      <point x="-100.2452830188704" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ExecutorCompletionService.QueueingFuture" target="java.util.concurrent.FutureTask">
+      <point x="73.5" y="-68.5" />
+      <point x="27484.312500000007" y="14138.0" />
+      <point x="28190.812500000007" y="14138.0" />
+      <point x="0.0" y="408.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniHandle" target="java.util.concurrent.CompletableFuture.UniCompletion">
+      <point x="203.0" y="-68.5" />
+      <point x="15024.90626815033" y="12219.0" />
+      <point x="17121.437500000007" y="12219.0" />
+      <point x="-118.0" y="101.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedQueue.Node" target="java.util.concurrent.ConcurrentLinkedQueue">
+      <point x="0.0" y="-134.5" />
+      <point x="3436.5" y="16181.0" />
+      <point x="3650.3333333333335" y="16181.0" />
+      <point x="-125.66666666666652" y="364.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachTransformedValueTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="230.75" y="-79.5" />
+      <point x="34918.06250000001" y="12209.0" />
+      <point x="44663.933637572205" y="12209.0" />
+      <point x="-143.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniRun" target="java.util.concurrent.CompletableFuture">
+      <point x="-142.25" y="-68.5" />
+      <point x="13969.15626815033" y="12139.0" />
+      <point x="13082.976044170024" y="12139.0" />
+      <point x="13082.976044170024" y="4056.0" />
+      <point x="19437.16440680298" y="4056.0" />
+      <point x="-158.0192307692305" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.Index" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="0.0" y="-145.5" />
+      <point x="70010.02083333334" y="12279.0" />
+      <point x="68869.5302108367" y="12279.0" />
+      <point x="166.66666666667152" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinTask.AdaptedCallable" target="java.util.concurrent.ForkJoinTask">
+      <point x="0.0" y="-122.5" />
+      <point x="26328.437500000007" y="5921.0" />
+      <point x="26544.468768150327" y="5921.0" />
+      <point x="-37.125" y="837.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.EntrySpliterator" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-135.5" y="-123.5" />
+      <point x="63479.5625" y="12299.0" />
+      <point x="63631.6875" y="12299.0" />
+      <point x="63631.6875" y="8978.0" />
+      <point x="49648.386467760894" y="8978.0" />
+      <point x="243.45283018868213" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ReduceValuesTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="236.25" y="-122.5" />
+      <point x="50549.56250000001" y="9138.0" />
+      <point x="49419.25439228919" y="9138.0" />
+      <point x="14.320754716980446" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingDeque.AbstractItr" target="java.util.concurrent.LinkedBlockingDeque">
+      <point x="0.0" y="-156.5" />
+      <point x="2810.2593775033565" y="14128.0" />
+      <point x="3276.2999999999993" y="14128.0" />
+      <point x="71.80000000000018" y="760.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.SubMap" target="java.util.concurrent.ConcurrentNavigableMap">
+      <point x="-129.75" y="-804.5" />
+      <point x="66236.8125" y="9148.0" />
+      <point x="68149.05104417003" y="9148.0" />
+      <point x="-115.5" y="125.5" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture.UniRelay" target="java.util.concurrent.CompletableFuture">
+      <point x="106.5" y="-47.5" />
+      <point x="19956.531268150327" y="4126.0" />
+      <point x="19718.087483726056" y="4126.0" />
+      <point x="122.90384615384755" y="1519.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapKeyIterator" target="java.util.concurrent.ConcurrentSkipListMap.SubMap">
+      <point x="-65.5" y="-79.5" />
+      <point x="66248.6875" y="14995.0" />
+      <point x="66196.1875" y="14995.0" />
+      <point x="66196.1875" y="14138.0" />
+      <point x="66301.6875" y="14138.0" />
+      <point x="-64.875" y="804.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.HeadIndex" target="java.util.concurrent.ConcurrentSkipListMap.Index">
+      <point x="-101.5" y="-47.5" />
+      <point x="69992.02083333334" y="14138.0" />
+      <point x="70010.02083333334" y="14138.0" />
+      <point x="0.0" y="145.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.KeySpliterator" target="java.util.concurrent.ConcurrentHashMap.Traverser">
+      <point x="-87.25" y="-112.5" />
+      <point x="63993.3125" y="12309.0" />
+      <point x="63822.8125" y="12309.0" />
+      <point x="36.125" y="167.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.KeyIterator" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-119.25" y="-58.5" />
+      <point x="62082.31250000001" y="9018.0" />
+      <point x="49591.10344889296" y="9018.0" />
+      <point x="186.16981132075307" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.FinalizableDelegatedExecutorService" target="java.util.concurrent.Executors.DelegatedExecutorService">
+      <point x="-101.25" y="-47.5" />
+      <point x="9886.656268150331" y="12299.0" />
+      <point x="9810.601044170024" y="12299.0" />
+      <point x="139.5" y="210.5" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingDeque.Itr" target="java.util.concurrent.LinkedBlockingDeque">
+      <point x="-61.0" y="-58.5" />
+      <point x="2389.5093775033565" y="15005.0" />
+      <point x="1197.25" y="15005.0" />
+      <point x="1197.25" y="14098.0" />
+      <point x="3060.9000000000015" y="14098.0" />
+      <point x="-143.59999999999854" y="760.5" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinTask.AdaptedRunnableAction" target="java.util.concurrent.ForkJoinTask">
+      <point x="-92.0" y="-111.5" />
+      <point x="27314.038544170027" y="12249.0" />
+      <point x="26972.687500000007" y="12249.0" />
+      <point x="26972.687500000007" y="5901.0" />
+      <point x="26618.718768150327" y="5901.0" />
+      <point x="37.125" y="837.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.EntrySet" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="0.0" y="-177.5" />
+      <point x="69276.02083333334" y="12299.0" />
+      <point x="68802.86354417003" y="12299.0" />
+      <point x="100.0" y="1068.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapValueIterator" target="java.util.concurrent.ConcurrentSkipListMap.SubMap.SubMapIter">
+      <point x="-49.25" y="-58.5" />
+      <point x="66514.4375" y="15005.0" />
+      <point x="66495.02083333333" y="15005.0" />
+      <point x="115.33333333332848" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.Executors.FinalizableDelegatedExecutorService" target="java.util.concurrent.Executors">
+      <point x="101.25" y="-47.5" />
+      <point x="10089.156268150331" y="9148.0" />
+      <point x="10045.601044170024" y="9148.0" />
+      <point x="-127.5" y="278.5" />
+    </edge>
+    <edge source="java.util.concurrent.ThreadPoolExecutor" target="java.util.concurrent.AbstractExecutorService">
+      <point x="0.0" y="-958.5" />
+      <point x="7905.434377503359" y="9148.0" />
+      <point x="7849.309377503359" y="9148.0" />
+      <point x="0.0" y="146.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToLongTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="-316.75" y="-144.5" />
+      <point x="55616.56250000001" y="12209.0" />
+      <point x="44936.933637572205" y="12209.0" />
+      <point x="130.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ForEachMappingTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="178.25" y="-68.5" />
+      <point x="42824.56250000001" y="12289.0" />
+      <point x="44767.933637572205" y="12289.0" />
+      <point x="-39.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.ValueIterator" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="-122.25" y="-58.5" />
+      <point x="62582.31250000001" y="14128.0" />
+      <point x="62574.31250000001" y="14128.0" />
+      <point x="62574.31250000001" y="9008.0" />
+      <point x="49605.424203609946" y="9008.0" />
+      <point x="200.49056603773352" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToDoubleTask" target="java.util.concurrent.ConcurrentHashMap">
+      <point x="310.5" y="-144.5" />
+      <point x="47544.31250000001" y="9138.0" />
+      <point x="49376.292128138244" y="9138.0" />
+      <point x="-28.64150943396089" y="1453.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap.MapReduceKeysTask" target="java.util.concurrent.ConcurrentHashMap.BulkTask">
+      <point x="305.5" y="-133.5" />
+      <point x="37343.31250000001" y="12239.0" />
+      <point x="44702.933637572205" y="12239.0" />
+      <point x="-104.0" y="178.5" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap.SubMap" target="java.util.concurrent.ConcurrentSkipListMap">
+      <point x="129.75" y="-804.5" />
+      <point x="66496.3125" y="12239.0" />
+      <point x="68469.5302108367" y="12239.0" />
+      <point x="-233.33333333332848" y="1068.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1496884517153765" x="19515.943362494138" y="611.120669329533" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

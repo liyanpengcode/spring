@@ -30,7 +30,6 @@ public class GENException extends RuntimeException {
 		this.msg = msg;
 		this.code = code;
 	}
-
 	public String getMsg() {
 		return msg;
 	}

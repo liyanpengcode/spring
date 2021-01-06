@@ -12,10 +12,7 @@ import java.util.Set;
 public class Role {
 
     private Integer roleId;
-
-
     private String name;
-
     private Set<Permission> permissions = new HashSet<>();
     private Set<User> users = new HashSet<>();
 
