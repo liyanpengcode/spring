@@ -1,0 +1,232 @@
+git log --pretty=fuller --shortstat > logfile.log
+
+commit 23edb42760869c955186695843b32e523af4aa8a
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Sun Dec 27 23:50:55 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Sun Dec 27 23:50:55 2020 +0800
+
+    author: liyanpeng
+    learning leetcode two sum
+
+ 1 file changed, 27 insertions(+)
+
+commit 9355e8b285092647fdbd1d6857fa35dea9bc91f5
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Sun Dec 27 20:45:00 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Sun Dec 27 20:45:00 2020 +0800
+
+    author: liyanpeng
+    learning leetcode two sum
+
+ 8 files changed, 59 insertions(+), 71 deletions(-)
+
+commit a6533a47d5ebc1f41935ec232cbe34909db62968
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Fri Dec 25 15:15:04 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Fri Dec 25 15:15:04 2020 +0800
+
+    author: liyanpeng
+    learning leetcode two sum
+
+ 1 file changed, 77 insertions(+)
+
+commit 2e64419929f7c991c2d60bd9ba4b5e89ddf2d051
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Wed Dec 23 23:38:20 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Wed Dec 23 23:38:20 2020 +0800
+
+    author: liyanpeng
+    learning scala for and continue and break and while use
+
+ 1 file changed, 3 insertions(+)
+
+commit 3e0079cacca9290f7900c23a19793b56e15d945b
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Sat Oct 17 19:19:47 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Sat Oct 17 19:19:47 2020 +0800
+
+    author: liyanpeng
+    learning scala for and continue and break and while use
+
+ 4 files changed, 204 insertions(+), 3 deletions(-)
+
+commit bb2b44397c134dcc0dbab47dfc1b9ed1e4d2ea5f
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Thu Oct 15 00:12:48 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Thu Oct 15 00:12:48 2020 +0800
+
+    author: liyanpeng
+    learning scala LogicalOperators and RelationalOperator and assignoper and Exercise use
+
+ 6 files changed, 201 insertions(+)
+
+commit 26f4570180f99f1ca770299611beae0f1c523e47
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Wed Oct 14 00:44:07 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Wed Oct 14 00:44:07 2020 +0800
+
+    author: liyanpeng
+    learning scala
+
+ 10 files changed, 307 insertions(+), 145 deletions(-)
+
+commit 26314acb75cdfcb36dd249b8b06edb91818ed4cd
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Sun Sep 13 16:46:53 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Sun Sep 13 16:46:53 2020 +0800
+
+    author: liyanpeng
+    
+    add  javase learning code
+
+ 15 files changed, 2069 insertions(+), 6769 deletions(-)
+
+commit 5556c641eec6bc474ca4652befe4fd60591c6a07
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Mon Sep 7 02:48:19 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Mon Sep 7 02:48:19 2020 +0800
+
+    learning javase language
+
+ 36 files changed, 12091 insertions(+), 10 deletions(-)
+
+commit 5faab6c4792fce301f621987e6a20144f2c811b0
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Mon Jun 15 23:48:50 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Mon Jun 15 23:48:50 2020 +0800
+
+    test: delete  package
+    
+    delete  package
+
+ 115 files changed, 269 insertions(+), 3056 deletions(-)
+
+commit 14272d005ec80281967981468c84b811edc12261
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Thu Jun 11 19:52:52 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Thu Jun 11 19:52:52 2020 +0800
+
+    style: format code style
+    
+    # format code style
+
+ 10 files changed, 164 insertions(+), 125 deletions(-)
+
+commit 19d6fb91faf44e67ec13b49d27de994db0647d40
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Thu Jun 11 00:15:07 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Thu Jun 11 00:15:07 2020 +0800
+
+    build: add spring dependencies
+    
+    # change pom  dependencies shiro-core version
+
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit aea88a0d9fb48b26e0650d5276524faa88e18dcf
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Sun Jun 7 00:31:01 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Sun Jun 7 00:31:01 2020 +0800
+
+    build: add spring dependencies
+    
+    # add spring dependencies
+
+ 3 files changed, 122 insertions(+), 34 deletions(-)
+
+commit 9a76d3ce3169462aa748d78116b4a1e9e7aee62d
+Author:     liyanpeng <liyanpengwork@gmail.com>
+AuthorDate: Thu Jun 4 20:51:13 2020 +0800
+Commit:     liyanpeng <liyanpengwork@gmail.com>
+CommitDate: Thu Jun 4 20:51:13 2020 +0800
+
+    build: add data structure and design patterns
+    
+    # add data structure and design patterns
+
+ 20 files changed, 1206 insertions(+), 27 deletions(-)
+
+commit 0f4afcd8a3183e8045539af3bb31dc92fb14d49c
+Author:     李 燕朋 <liyanpeng@travelsky.com>
+AuthorDate: Fri Mar 15 12:15:11 2019 +0800
+Commit:     李 燕朋 <liyanpeng@travelsky.com>
+CommitDate: Fri Mar 15 12:15:11 2019 +0800
+
+    测试tag文档
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f923faf0e683d17ee53584d22d02f978ddb4d440
+Author:     李 燕朋 <liyanpeng@travelsky.com>
+AuthorDate: Fri Mar 15 11:07:22 2019 +0800
+Commit:     李 燕朋 <liyanpeng@travelsky.com>
+CommitDate: Fri Mar 15 11:07:22 2019 +0800
+
+    测试tag文档
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit dbd70ce4aefba0ba15e9aa00489b2aff1d9dd8c0
+Author:     liyanpengcode <36120083+liyanpengcode@users.noreply.github.com>
+AuthorDate: Fri Feb 15 12:38:11 2019 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: Fri Feb 15 12:38:11 2019 +0800
+
+    Create README.md
+
+ 1 file changed, 2 insertions(+)
+
+commit feff5f534d02a2b44eaeac8952ab069d06b16fa3
+Author:     liyanpengcode <36120083+liyanpengcode@users.noreply.github.com>
+AuthorDate: Mon Nov 5 23:59:36 2018 +0800
+Commit:     GitHub <noreply@github.com>
+CommitDate: Mon Nov 5 23:59:36 2018 +0800
+
+    Update pom.xml
+    
+    idea config setting blog
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 90875cf6e4d5abdee863f83e8f3aa3b9b026a7b9
+Author:     LYP <liyanpengwork@aliyun.com>
+AuthorDate: Mon Sep 3 00:58:33 2018 +0800
+Commit:     LYP <liyanpengwork@aliyun.com>
+CommitDate: Mon Sep 3 00:58:33 2018 +0800
+
+    shiro学习
+
+ 20 files changed, 539 insertions(+), 955 deletions(-)
+
+commit f2e70c80240423a26c6f8bd634f77fe36922d7b8
+Author:     LYP <liyanpengwork@aliyun.com>
+AuthorDate: Sun Sep 2 19:10:42 2018 +0800
+Commit:     LYP <liyanpengwork@aliyun.com>
+CommitDate: Sun Sep 2 19:10:42 2018 +0800
+
+    完善代码生成器
+
+ 43 files changed, 1395 insertions(+), 486 deletions(-)
+
+commit c22ec50e3ab228521803117c53967f6b3b0e41c8
+Author:     liyanpeng <liyanpengwork@aliyun.com>
+AuthorDate: Thu Aug 16 17:49:34 2018 +0800
+Commit:     liyanpeng <liyanpengwork@aliyun.com>
+CommitDate: Thu Aug 16 17:49:35 2018 +0800
+
+    测试
+
+ 188 files changed, 11621 insertions(+)

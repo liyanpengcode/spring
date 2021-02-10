@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.spring.shiro.dao.UserDao" >
+    <resultMap id="userMap" type="com.spring.shiro.model.User">
+        <id property="userId" column="userId"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <collection property="roles" ofType="com.spring.shiro.model.Role">
+            <id property="roleId" column="roleId"/>
+            <result property="name" column="name"/>
+            <collection property="permissions" ofType="com.spring.shiro.model.Permission">
+                <id property="permissionId" column="permissionId"/>
+                <result property="name" column="name"/>
+                <result property="url" column="url"/>
+            </collection>
+        </collection>
+    </resultMap>
+    <select id="get" resultMap="userMap" parameterType="String">
+
+    </select>
+</mapper>

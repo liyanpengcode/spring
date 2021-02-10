@@ -1,0 +1,654 @@
+git log --numstat >filename.txt
+commit 23edb42760869c955186695843b32e523af4aa8a
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Sun Dec 27 23:50:55 2020 +0800
+
+    author: liyanpeng
+    learning leetcode two sum
+
+27	0	design-patterns/src/test/java/com/spring/design/patterns/DesignPatternsApplicationTests.java
+
+commit 9355e8b285092647fdbd1d6857fa35dea9bc91f5
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Sun Dec 27 20:45:00 2020 +0800
+
+    author: liyanpeng
+    learning leetcode two sum
+
+6	0	data-structure/pom.xml
+0	19	design-patterns/pom.xml
+1	0	design-patterns/src/main/java/com/spring/design/patterns/DesignPatternsApplication.java
+3	1	design-patterns/src/main/resources/application.properties
+1	10	javase/pom.xml
+-	-	javase/src/main/java/com/example/javase/domain/VariableTests.class
+0	2	javase/src/main/java/com/example/javase/juc/ForkJoinPoolTests.java
+48	39	pom.xml
+
+commit a6533a47d5ebc1f41935ec232cbe34909db62968
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Fri Dec 25 15:15:04 2020 +0800
+
+    author: liyanpeng
+    learning leetcode two sum
+
+77	0	data-structure/src/test/java/com/srping/data/structure/TwoSumDemoTests.java
+
+commit 2e64419929f7c991c2d60bd9ba4b5e89ddf2d051
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Wed Dec 23 23:38:20 2020 +0800
+
+    author: liyanpeng
+    learning scala for and continue and break and while use
+
+3	0	flink/src/main/scala/com/spring/flink/TestClass.scala
+
+commit 3e0079cacca9290f7900c23a19793b56e15d945b
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Sat Oct 17 19:19:47 2020 +0800
+
+    author: liyanpeng
+    learning scala for and continue and break and while use
+
+62	0	flink/src/main/scala/com/spring/flink/exercise/MyWhile.scala
+25	0	flink/src/main/scala/com/spring/flink/exercise/mutifor/MutiFor.scala
+97	3	flink/src/main/scala/com/spring/flink/exercise/myfor/ForDemo.scala
+20	0	flink/src/main/scala/com/spring/flink/exercise/myfor/MyContinue.scala
+
+commit bb2b44397c134dcc0dbab47dfc1b9ed1e4d2ea5f
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Thu Oct 15 00:12:48 2020 +0800
+
+    author: liyanpeng
+    learning scala LogicalOperators and RelationalOperator and assignoper and Exercise use
+
+23	0	flink/src/main/scala/com/spring/flink/base/InputConsole.scala
+21	0	flink/src/main/scala/com/spring/flink/base/LogicalOperators.scala
+31	0	flink/src/main/scala/com/spring/flink/base/RelationalOperator.scala
+74	0	flink/src/main/scala/com/spring/flink/base/assignoper.scala
+21	0	flink/src/main/scala/com/spring/flink/exercise/ifelse/Exercise.scala
+31	0	flink/src/main/scala/com/spring/flink/exercise/myfor/ForDemo.scala
+
+commit 26f4570180f99f1ca770299611beae0f1c523e47
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Wed Oct 14 00:44:07 2020 +0800
+
+    author: liyanpeng
+    learning scala
+
+132	145	flink/pom.xml
+6	0	flink/src/main/scala/com/spring/flink/TestClass.scala
+8	0	flink/src/main/scala/com/spring/flink/TestwordCount.scala
+22	0	flink/src/main/scala/com/spring/flink/base/Arithoper.scala
+25	0	flink/src/main/scala/com/spring/flink/base/Comment.scala
+23	0	flink/src/main/scala/com/spring/flink/base/DataConversion.scala
+50	0	flink/src/main/scala/com/spring/flink/base/DataType.scala
+31	0	flink/src/main/scala/com/spring/flink/base/Identifier.scala
+4	0	inventory.ini
+6	0	pom.xml
+
+commit 26314acb75cdfcb36dd249b8b06edb91818ed4cd
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Sun Sep 13 16:46:53 2020 +0800
+
+    author: liyanpeng
+    
+    add  javase learning code
+
+1599	6765	concurrent.uml
+4	0	javase/pom.xml
+90	0	javase/src/main/java/com/example/javase/juc/ForkJoinPoolTests.java
+61	0	javase/src/main/java/com/example/javase/juc/ReadWriteLockTests.java
+51	0	javase/src/main/java/com/example/javase/juc/ScheduleThreadPoolTests.java
+70	0	javase/src/main/java/com/example/javase/juc/SynchronizedTests.java
+77	0	javase/src/main/java/com/example/javase/juc/ThreadPoolTests.java
+37	0	javase/src/main/java/com/example/javase/jvm/DirectMemoryOOM.java
+15	0	javase/src/main/java/com/example/javase/jvm/FinalizeEscapeGC.java
+1	1	javase/src/main/java/com/example/javase/jvm/HeapOOMTests.java
+31	0	javase/src/main/java/com/example/javase/jvm/ReferenceCountingGC.java
+20	0	javase/src/main/java/com/example/javase/jvm/RuntimeConstantpoolOOM.java
+1	1	javase/src/main/java/com/example/javase/jvm/StackOverflowErrorTests.java
+4	2	javase/src/main/java/com/example/javase/lambda/LambdaTests.java
+8	0	pom.xml
+
+commit 5556c641eec6bc474ca4652befe4fd60591c6a07
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Mon Sep 7 02:48:19 2020 +0800
+
+    learning javase language
+
+7457	0	concurrent.uml
+0	6	data-structure/pom.xml
+6	3	data-structure/src/main/java/com/srping/data/structure/DataStructureApplication.java
+97	0	data-structure/src/main/java/com/srping/data/structure/entity/Demo.java
+1	1	data-structure/src/main/resources/application.properties
+18	0	data-structure/src/test/java/com/srping/data/structure/DemoJvmTests.java
+160	0	flink/pom.xml
+5	0	flink/src/main/resources/wordcount.txt
+34	0	flink/src/main/scala/com/spring/flink/SteamWordCount.scala
+27	0	flink/src/main/scala/com/spring/flink/WordCount.scala
+3185	0	io.uml
+61	0	javase/pom.xml
+13	0	javase/src/main/java/com/example/javase/JavaseApplication.java
+34	0	javase/src/main/java/com/example/javase/domain/BitTests.java
+30	0	javase/src/main/java/com/example/javase/domain/CompareTests.java
+80	0	javase/src/main/java/com/example/javase/domain/LogicTests.java
+37	0	javase/src/main/java/com/example/javase/domain/ModTests.java
+23	0	javase/src/main/java/com/example/javase/domain/VariableTests.java
+59	0	javase/src/main/java/com/example/javase/entity/InstanceofTests.java
+129	0	javase/src/main/java/com/example/javase/juc/AlternateThreadTests.java
+55	0	javase/src/main/java/com/example/javase/juc/CallableTests.java
+45	0	javase/src/main/java/com/example/javase/juc/CopyOnWriteArrayListTests.java
+62	0	javase/src/main/java/com/example/javase/juc/CountDownLatchTests.java
+55	0	javase/src/main/java/com/example/javase/juc/LockTests.java
+116	0	javase/src/main/java/com/example/javase/juc/ProductAndConsumerTests.java
+15	0	javase/src/main/java/com/example/javase/juc/ThreadJoinTests.java
+47	0	javase/src/main/java/com/example/javase/juc/VolatileTests.java
+66	0	javase/src/main/java/com/example/javase/juc/atomic/AtomicDemoTests.java
+61	0	javase/src/main/java/com/example/javase/juc/atomic/CompareAndSwapTests.java
+17	0	javase/src/main/java/com/example/javase/jvm/HeapOOMTests.java
+20	0	javase/src/main/java/com/example/javase/jvm/ObjectPaddingTests.java
+10	0	javase/src/main/java/com/example/javase/jvm/StackOverflowErrorTests.java
+14	0	javase/src/main/java/com/example/javase/lambda/LambdaTests.java
+1	0	javase/src/main/resources/application.properties
+13	0	javase/src/test/java/com/example/javase/JavaseApplicationTests.java
+38	0	javase/src/test/java/com/example/javase/VariableTests.java
+
+commit 5faab6c4792fce301f621987e6a20144f2c811b0
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Mon Jun 15 23:48:50 2020 +0800
+
+    test: delete  package
+    
+    delete  package
+
+232	0	.gitignore
+0	16	.idea/checkstyle-idea.xml
+0	21	.idea/compiler.xml
+0	10	.idea/encodings.xml
+0	36	.idea/inspectionProfiles/Project_Default.xml
+0	13	.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml
+0	13	.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml
+0	13	.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml
+0	13	.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml
+0	13	.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml
+0	13	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml
+0	13	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml
+0	13	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml
+0	13	.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml
+0	13	.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml
+0	13	.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml
+0	13	.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml
+0	13	.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml
+0	13	.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml
+0	13	.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml
+0	13	.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml
+0	13	.idea/libraries/Maven__commons_io_commons_io_2_5.xml
+0	13	.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml
+0	13	.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml
+0	13	.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml
+0	13	.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml
+0	13	.idea/libraries/Maven__junit_junit_4_12.xml
+0	13	.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml
+0	13	.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml
+0	13	.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml
+0	13	.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml
+0	13	.idea/libraries/Maven__net_minidev_json_smart_2_3.xml
+0	13	.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml
+0	13	.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml
+0	13	.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml
+0	13	.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml
+0	13	.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml
+0	13	.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml
+0	13	.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml
+0	13	.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml
+0	13	.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+0	13	.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml
+0	13	.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_11_Final.xml
+0	13	.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml
+0	13	.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml
+0	13	.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml
+0	13	.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml
+0	13	.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml
+0	13	.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml
+0	13	.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml
+0	13	.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml
+0	13	.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml
+0	13	.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml
+0	13	.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml
+0	13	.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_4_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_7_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_7_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_7_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_spring_context_support_5_0_8_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_8_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_spring_test_5_0_8_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml
+0	13	.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_8_RELEASE.xml
+0	13	.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml
+0	13	.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml
+0	16	.idea/misc.xml
+0	11	.idea/modules.xml
+0	124	.idea/uiDesigner.xml
+0	25	commons/.gitignore
+-	-	commons/.mvn/wrapper/maven-wrapper.jar
+0	1	commons/.mvn/wrapper/maven-wrapper.properties
+0	143	commons/mvnw.cmd
+17	0	data-structure/HELP.md
+0	310	data-structure/mvnw
+0	182	data-structure/mvnw.cmd
+0	31	design-patterns/.gitignore
+19	0	design-patterns/HELP.md
+0	310	design-patterns/mvnw
+0	182	design-patterns/mvnw.cmd
+1	0	design-patterns/src/main/java/com/spring/design/patterns/DesignPatternsApplication.java
+0	25	generator/.gitignore
+-	-	generator/.mvn/wrapper/maven-wrapper.jar
+0	1	generator/.mvn/wrapper/maven-wrapper.properties
+0	143	generator/mvnw.cmd
+0	25	security/.gitignore
+-	-	security/.mvn/wrapper/maven-wrapper.jar
+0	1	security/.mvn/wrapper/maven-wrapper.properties
+0	143	security/mvnw.cmd
+0	25	shiro/.gitignore
+-	-	shiro/.mvn/wrapper/maven-wrapper.jar
+0	1	shiro/.mvn/wrapper/maven-wrapper.properties
+0	143	shiro/mvnw.cmd
+0	78	spring.iml
+-	-	"\346\265\213\350\257\225tag.docx"
+
+commit 14272d005ec80281967981468c84b811edc12261
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Thu Jun 11 19:52:52 2020 +0800
+
+    style: format code style
+    
+    # format code style
+
+12	5	generator/src/main/java/com/spring/generator/commons/enums/SexEnum.java
+11	4	generator/src/main/java/com/spring/generator/commons/enums/StateEnum.java
+58	45	generator/src/main/java/com/spring/generator/dao/Entity/ColumnEntity.java
+61	50	generator/src/main/java/com/spring/generator/dao/Entity/TableEntity.java
+4	4	generator/src/main/java/com/spring/generator/dao/SysGeneratorDao.java
+3	1	generator/src/main/java/com/spring/generator/service/SysGeneratorService.java
+0	1	generator/src/main/java/com/spring/generator/service/impl/SysGeneratorServiceImpl.java
+2	1	generator/src/main/java/com/spring/generator/utils/EnumMessage.java
+0	1	generator/src/main/java/com/spring/generator/utils/GENException.java
+13	13	generator/src/main/java/com/spring/generator/utils/GenUtils.java
+
+commit 19d6fb91faf44e67ec13b49d27de994db0647d40
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Thu Jun 11 00:15:07 2020 +0800
+
+    build: add spring dependencies
+    
+    # change pom  dependencies shiro-core version
+
+2	2	shiro/pom.xml
+
+commit aea88a0d9fb48b26e0650d5276524faa88e18dcf
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Sun Jun 7 00:31:01 2020 +0800
+
+    build: add spring dependencies
+    
+    # add spring dependencies
+
+118	2	pom.xml
+3	30	shiro/pom.xml
+1	2	shiro/src/main/java/com/spring/shiro/ShiroApplication.java
+
+commit 9a76d3ce3169462aa748d78116b4a1e9e7aee62d
+Author: liyanpeng <liyanpengwork@gmail.com>
+Date:   Thu Jun 4 20:51:13 2020 +0800
+
+    build: add data structure and design patterns
+    
+    # add data structure and design patterns
+
+310	0	data-structure/mvnw
+182	0	data-structure/mvnw.cmd
+48	0	data-structure/pom.xml
+13	0	data-structure/src/main/java/com/srping/data/structure/DataStructureApplication.java
+1	0	data-structure/src/main/resources/application.properties
+13	0	data-structure/src/test/java/com/srping/data/structure/DataStructureApplicationTests.java
+31	0	design-patterns/.gitignore
+310	0	design-patterns/mvnw
+182	0	design-patterns/mvnw.cmd
+73	0	design-patterns/pom.xml
+13	0	design-patterns/src/main/java/com/spring/design/patterns/DesignPatternsApplication.java
+1	0	design-patterns/src/main/resources/application.properties
+13	0	design-patterns/src/test/java/com/spring/design/patterns/DesignPatternsApplicationTests.java
+1	2	generator/pom.xml
+14	14	pom.xml
+1	2	security/pom.xml
+0	2	shiro/src/main/java/com/spring/shiro/ShiroApplication.java
+0	3	shiro/src/main/java/com/spring/shiro/model/Permission.java
+0	3	shiro/src/main/java/com/spring/shiro/model/Role.java
+0	1	shiro/src/main/java/com/spring/shiro/model/User.java
+
+commit 0f4afcd8a3183e8045539af3bb31dc92fb14d49c
+Author: 李 燕朋 <liyanpeng@travelsky.com>
+Date:   Fri Mar 15 12:15:11 2019 +0800
+
+    测试tag文档
+
+-	-	"\346\265\213\350\257\225tag.docx"
+
+commit f923faf0e683d17ee53584d22d02f978ddb4d440
+Author: 李 燕朋 <liyanpeng@travelsky.com>
+Date:   Fri Mar 15 11:07:22 2019 +0800
+
+    测试tag文档
+
+-	-	"\346\265\213\350\257\225tag.docx"
+
+commit dbd70ce4aefba0ba15e9aa00489b2aff1d9dd8c0
+Author: liyanpengcode <36120083+liyanpengcode@users.noreply.github.com>
+Date:   Fri Feb 15 12:38:11 2019 +0800
+
+    Create README.md
+
+2	0	README.md
+
+commit feff5f534d02a2b44eaeac8952ab069d06b16fa3
+Author: liyanpengcode <36120083+liyanpengcode@users.noreply.github.com>
+Date:   Mon Nov 5 23:59:36 2018 +0800
+
+    Update pom.xml
+    
+    idea config setting blog
+
+1	1	pom.xml
+
+commit 90875cf6e4d5abdee863f83e8f3aa3b9b026a7b9
+Author: LYP <liyanpengwork@aliyun.com>
+Date:   Mon Sep 3 00:58:33 2018 +0800
+
+    shiro学习
+
+0	225	commons/mvnw
+0	225	generator/mvnw
+1	1	generator/src/main/resources/static/libs/app.js
+0	225	security/mvnw
+87	0	shiro/init.sql
+0	225	shiro/mvnw
+86	54	shiro/pom.xml
+5	0	shiro/src/main/java/com/spring/shiro/ShiroApplication.java
+105	0	shiro/src/main/java/com/spring/shiro/config/ShiroConfig.java
+43	0	shiro/src/main/java/com/spring/shiro/dao/BaseDao.java
+9	0	shiro/src/main/java/com/spring/shiro/dao/UserDao.java
+16	0	shiro/src/main/java/com/spring/shiro/model/Permission.java
+23	0	shiro/src/main/java/com/spring/shiro/model/Role.java
+22	0	shiro/src/main/java/com/spring/shiro/model/User.java
+9	0	shiro/src/main/java/com/spring/shiro/service/UserService.java
+62	0	shiro/src/main/java/com/spring/shiro/service/impl/AuthRealm.java
+22	0	shiro/src/main/java/com/spring/shiro/service/impl/CredentialMatcher.java
+18	0	shiro/src/main/java/com/spring/shiro/service/impl/UserServiceImpl.java
+9	0	shiro/src/main/resources/application.properties
+22	0	shiro/src/main/resources/mappers/UserMapper.xml
+
+commit f2e70c80240423a26c6f8bd634f77fe36922d7b8
+Author: LYP <liyanpengwork@aliyun.com>
+Date:   Sun Sep 2 19:10:42 2018 +0800
+
+    完善代码生成器
+
+22	35	generator/pom.xml
+20	0	generator/src/main/java/com/spring/generator/commons/enums/SexEnum.java
+19	0	generator/src/main/java/com/spring/generator/commons/enums/StateEnum.java
+43	0	generator/src/main/java/com/spring/generator/dao/BaseDao.java
+13	40	generator/src/main/java/com/spring/generator/service/SysGeneratorService.java
+58	0	generator/src/main/java/com/spring/generator/service/impl/SysGeneratorServiceImpl.java
+7	0	generator/src/main/java/com/spring/generator/utils/EnumMessage.java
+51	0	generator/src/main/java/com/spring/generator/utils/GENException.java
+47	26	generator/src/main/java/com/spring/generator/utils/GenUtils.java
+9	2	generator/src/main/resources/application.yml
+23	24	generator/src/main/resources/mapper/SysGeneratorDao.xml
+1	1	generator/src/main/resources/static/css/font-awesome.min.css
+1	1	generator/src/main/resources/static/fonts/fontawesome-webfont.svg
+37	37	generator/src/main/resources/static/js/generator.js
+1	1	generator/src/main/resources/static/js/index.js
+123	59	generator/src/main/resources/template/Controller.java.vm
+3	4	generator/src/main/resources/template/Dao.java.vm
+0	14	generator/src/main/resources/template/Dao.xml.vm
+8	15	generator/src/main/resources/template/Entity.java.vm
+91	0	generator/src/main/resources/template/Mapper.xml.vm
+20	8	generator/src/main/resources/template/Service.java.vm
+55	18	generator/src/main/resources/template/ServiceImpl.java.vm
+24	0	generator/src/main/resources/template/add.ftl.vm
+17	0	generator/src/main/resources/template/common.ftl.vm
+26	0	generator/src/main/resources/template/edit.ftl.vm
+21	0	generator/src/main/resources/template/info.ftl.vm
+82	0	generator/src/main/resources/template/list.ftl.vm
+0	54	generator/src/main/resources/template/list.html.vm
+68	122	generator/src/main/resources/template/list.js.vm
+7	5	generator/src/main/resources/template/menu.sql.vm
+7	7	generator/src/main/resources/views/index.html
+3	5	generator/src/main/resources/views/main.html
+5	5	pom.xml
+25	0	shiro/.gitignore
+-	-	shiro/.mvn/wrapper/maven-wrapper.jar
+1	0	shiro/.mvn/wrapper/maven-wrapper.properties
+225	0	shiro/mvnw
+143	0	shiro/mvnw.cmd
+59	0	shiro/pom.xml
+12	0	shiro/src/main/java/com/spring/shiro/ShiroApplication.java
+0	0	shiro/src/main/resources/application.properties
+16	0	shiro/src/test/java/com/spring/shiro/ShiroApplicationTests.java
+2	3	spring.iml
+
+commit c22ec50e3ab228521803117c53967f6b3b0e41c8
+Author: liyanpeng <liyanpengwork@aliyun.com>
+Date:   Thu Aug 16 17:49:34 2018 +0800
+
+    测试
+
+16	0	.idea/checkstyle-idea.xml
+21	0	.idea/compiler.xml
+10	0	.idea/encodings.xml
+36	0	.idea/inspectionProfiles/Project_Default.xml
+13	0	.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml
+13	0	.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml
+13	0	.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml
+13	0	.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml
+13	0	.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml
+13	0	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml
+13	0	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml
+13	0	.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml
+13	0	.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_6.xml
+13	0	.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_6.xml
+13	0	.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_6.xml
+13	0	.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml
+13	0	.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml
+13	0	.idea/libraries/Maven__com_zaxxer_HikariCP_2_7_9.xml
+13	0	.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml
+13	0	.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml
+13	0	.idea/libraries/Maven__commons_io_commons_io_2_5.xml
+13	0	.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml
+13	0	.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml
+13	0	.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml
+13	0	.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml
+13	0	.idea/libraries/Maven__junit_junit_4_12.xml
+13	0	.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml
+13	0	.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml
+13	0	.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_11.xml
+13	0	.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml
+13	0	.idea/libraries/Maven__net_minidev_json_smart_2_3.xml
+13	0	.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml
+13	0	.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml
+13	0	.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_32.xml
+13	0	.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_32.xml
+13	0	.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_32.xml
+13	0	.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml
+13	0	.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml
+13	0	.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml
+13	0	.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml
+13	0	.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml
+13	0	.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_11_Final.xml
+13	0	.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml
+13	0	.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml
+13	0	.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml
+13	0	.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml
+13	0	.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml
+13	0	.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml
+13	0	.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml
+13	0	.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml
+13	0	.idea/libraries/Maven__org_projectlombok_lombok_1_16_22.xml
+13	0	.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml
+13	0	.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml
+13	0	.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_4_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_7_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_7_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_7_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_spring_context_support_5_0_8_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_8_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_spring_test_5_0_8_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_spring_tx_5_0_8_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_spring_web_5_0_8_RELEASE.xml
+13	0	.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_8_RELEASE.xml
+13	0	.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml
+13	0	.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml
+16	0	.idea/misc.xml
+11	0	.idea/modules.xml
+124	0	.idea/uiDesigner.xml
+25	0	commons/.gitignore
+-	-	commons/.mvn/wrapper/maven-wrapper.jar
+1	0	commons/.mvn/wrapper/maven-wrapper.properties
+225	0	commons/mvnw
+143	0	commons/mvnw.cmd
+50	0	commons/pom.xml
+12	0	commons/src/main/java/com/spring/commons/CommonsApplication.java
+0	0	commons/src/main/resources/application.properties
+16	0	commons/src/test/java/com/spring/commons/CommonsApplicationTests.java
+25	0	generator/.gitignore
+-	-	generator/.mvn/wrapper/maven-wrapper.jar
+1	0	generator/.mvn/wrapper/maven-wrapper.properties
+225	0	generator/mvnw
+143	0	generator/mvnw.cmd
+106	0	generator/pom.xml
+12	0	generator/src/main/java/com/spring/generator/GeneratorApplication.java
+61	0	generator/src/main/java/com/spring/generator/controller/SysGeneratorController.java
+63	0	generator/src/main/java/com/spring/generator/dao/Entity/ColumnEntity.java
+56	0	generator/src/main/java/com/spring/generator/dao/Entity/TableEntity.java
+19	0	generator/src/main/java/com/spring/generator/dao/SysGeneratorDao.java
+50	0	generator/src/main/java/com/spring/generator/service/SysGeneratorService.java
+23	0	generator/src/main/java/com/spring/generator/utils/DateUtils.java
+216	0	generator/src/main/java/com/spring/generator/utils/GenUtils.java
+74	0	generator/src/main/java/com/spring/generator/utils/PageUtils.java
+42	0	generator/src/main/java/com/spring/generator/utils/Query.java
+49	0	generator/src/main/java/com/spring/generator/utils/Response.java
+28	0	generator/src/main/resources/application.yml
+35	0	generator/src/main/resources/generator.properties
+34	0	generator/src/main/resources/mapper/SysGeneratorDao.xml
+7	0	generator/src/main/resources/static/css/AdminLTE.min.css
+1	0	generator/src/main/resources/static/css/all-skins.min.css
+6	0	generator/src/main/resources/static/css/bootstrap.min.css
+4	0	generator/src/main/resources/static/css/font-awesome.min.css
+54	0	generator/src/main/resources/static/css/main.css
+-	-	generator/src/main/resources/static/favicon.ico
+-	-	generator/src/main/resources/static/fonts/FontAwesome.otf
+-	-	generator/src/main/resources/static/fonts/fontawesome-webfont.eot
+2671	0	generator/src/main/resources/static/fonts/fontawesome-webfont.svg
+-	-	generator/src/main/resources/static/fonts/fontawesome-webfont.ttf
+-	-	generator/src/main/resources/static/fonts/fontawesome-webfont.woff
+-	-	generator/src/main/resources/static/fonts/fontawesome-webfont.woff2
+-	-	generator/src/main/resources/static/fonts/glyphicons-halflings-regular.eot
+288	0	generator/src/main/resources/static/fonts/glyphicons-halflings-regular.svg
+-	-	generator/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf
+-	-	generator/src/main/resources/static/fonts/glyphicons-halflings-regular.woff
+-	-	generator/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2
+83	0	generator/src/main/resources/static/js/common.js
+61	0	generator/src/main/resources/static/js/generator.js
+52	0	generator/src/main/resources/static/js/index.js
+763	0	generator/src/main/resources/static/libs/app.js
+13	0	generator/src/main/resources/static/libs/app.min.js
+7	0	generator/src/main/resources/static/libs/bootstrap.min.js
+1	0	generator/src/main/resources/static/libs/fastclick.min.js
+4	0	generator/src/main/resources/static/libs/jquery.min.js
+1	0	generator/src/main/resources/static/libs/jquery.slimscroll.min.js
+97	0	generator/src/main/resources/static/libs/router.js
+8	0	generator/src/main/resources/static/libs/vue.min.js
+219	0	generator/src/main/resources/static/plugins/jqgrid/grid.locale-cn.js
+1531	0	generator/src/main/resources/static/plugins/jqgrid/jquery.jqGrid.min.js
+31	0	generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css
+930	0	generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid-bootstrap.css
+354	0	generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid.css
+2	0	generator/src/main/resources/static/plugins/layer/layer.js
+2	0	generator/src/main/resources/static/plugins/layer/mobile/layer.js
+1	0	generator/src/main/resources/static/plugins/layer/mobile/need/layer.css
+-	-	generator/src/main/resources/static/plugins/layer/skin/default/icon-ext.png
+-	-	generator/src/main/resources/static/plugins/layer/skin/default/icon.png
+1	0	generator/src/main/resources/static/plugins/layer/skin/default/layer.css
+-	-	generator/src/main/resources/static/plugins/layer/skin/default/loading-0.gif
+-	-	generator/src/main/resources/static/plugins/layer/skin/default/loading-1.gif
+-	-	generator/src/main/resources/static/plugins/layer/skin/default/loading-2.gif
+-	-	generator/src/main/resources/static/plugins/layer/skin/moon/default.png
+1	0	generator/src/main/resources/static/plugins/layer/skin/moon/style.css
+92	0	generator/src/main/resources/template/Controller.java.vm
+15	0	generator/src/main/resources/template/Dao.java.vm
+14	0	generator/src/main/resources/template/Dao.xml.vm
+47	0	generator/src/main/resources/template/Entity.java.vm
+20	0	generator/src/main/resources/template/Service.java.vm
+29	0	generator/src/main/resources/template/ServiceImpl.java.vm
+54	0	generator/src/main/resources/template/list.html.vm
+123	0	generator/src/main/resources/template/list.js.vm
+16	0	generator/src/main/resources/template/menu.sql.vm
+35	0	generator/src/main/resources/views/generator.html
+116	0	generator/src/main/resources/views/index.html
+29	0	generator/src/main/resources/views/main.html
+16	0	generator/src/test/java/com/spring/generator/GeneratorApplicationTests.java
+63	0	pom.xml
+25	0	security/.gitignore
+-	-	security/.mvn/wrapper/maven-wrapper.jar
+1	0	security/.mvn/wrapper/maven-wrapper.properties
+225	0	security/mvnw
+143	0	security/mvnw.cmd
+62	0	security/pom.xml
+12	0	security/src/main/java/com/spring/security/SecurityApplication.java
+42	0	security/src/main/java/com/spring/security/config/SecurityConfig.java
+7	0	security/src/main/java/com/spring/security/dao/UserDao.java
+103	0	security/src/main/java/com/spring/security/dao/model/User.java
+23	0	security/src/main/resources/application.yml
+16	0	security/src/test/java/com/spring/security/SecurityApplicationTests.java
+79	0	spring.iml

@@ -1,0 +1,35 @@
+# Tomcat
+server:
+    tomcat:
+        max-threads: 1000
+        min-spare-threads: 30
+        uri-encoding: UTF-8
+        #设置http参数限制
+        max-http-header-size: 3145728
+    port: 8000
+    servlet:
+        context-path: /generator
+
+# mysql
+spring:
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://132.232.137.226:3306/spring?useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: root
+        password: liyanpeng
+    jackson:
+        time-zone: GMT+8
+        date-format: yyyy-MM-dd HH:mm:ss
+    resources:
+            static-locations: classpath:/static/,classpath:/views/
+
+# Mybatis配置
+mybatis:
+    mapperLocations: classpath:mapper/**/*.xml
+#logging:
+#  level: debug
+##日志配置文件位置
+## Logger config
+#  config: classpath:logback-spring.xml
+

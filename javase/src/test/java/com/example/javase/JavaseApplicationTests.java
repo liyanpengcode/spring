@@ -8,6 +8,8 @@ class JavaseApplicationTests {
 
     @Test
     void contextLoads() {
+
+
     }
 
 }
