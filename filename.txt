@@ -1,5 +1,4 @@
 git log --numstat >filename.txt
-
 commit 9240ac83d4337b7c203e577a6f394b3b79ed1546
 Author: liyanpeng <liyanpengwork@gmail.com>
 Date:   Wed Feb 10 17:48:37 2021 +0800
