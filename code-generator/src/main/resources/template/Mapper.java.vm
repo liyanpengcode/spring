@@ -1,0 +1,17 @@
+package ${package}.mapper;
+
+import ${package}.entity.${className};
+import ${superMapperClassPackage};
+import org.springframework.stereotype.Repository;
+
+/**
+ * ${comments}
+ *
+ * @author ${author}
+ * @email ${email}
+ * @date ${datetime}
+ */
+
+public interface ${className}Dao extends import ${superMapperClass}<${className}> {
+
+}

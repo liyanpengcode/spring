@@ -1,0 +1,86 @@
+package ${package}.controller;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import ${package}.entity.${className};
+import ${package}.service.${className}Service;
+import ${package}.common.utils.PageUtils;
+import ${package}.common.utils.Query;
+import ${package}.common.utils.R;
+
+
+/**
+ * ${comments}
+ *
+ * @author ${author}
+ * @email ${email}
+ * @date ${datetime}
+ */
+@RestController
+@RequestMapping("${pathName}")
+public class ${className}Controller {
+    @Autowired
+    private ${className}Service ${classname}Service;
+
+
+    /**
+     * 列表数据
+     */
+    @PostMapping("/listData")
+    @RequiresPermissions("${pathName}:list")
+    public Response listData(@RequestParam Map<String, Object> params) {
+        //查询列表数据
+        Query query = new Query(params);
+
+        List<${className}> ${classname}List = ${classname}Service.getList(query);
+        int total = ${classname}Service.getCount(query);
+
+        PageUtils pageUtil = new PageUtils(${classname}List, total, query.getLimit(), query.getPage());
+
+        return Response.ok().put("page", pageUtil);
+    }
+
+
+    /**
+     * 信息
+     */
+    @GetMapping("/info/{${pk.attrname}}")
+    public Response info(@PathVariable("${pk.attrname}") ${pk.attrType} ${pk.attrname}) {
+        ${className} ${classname} =${classname}Service.get(${pk.attrname});
+        return Response.ok().put("${classname}", ${classname});
+    }
+
+    /**
+	 * 保存
+	 */
+
+    @PostMapping("/save")
+    public Response save(@RequestBody ${className} ${classname}) {
+            ${classname}Service.save(${classname});
+
+        return Response.ok();
+    }
+
+    @PostMapping("/update")
+    public Response update(@RequestBody ${className} ${classname}) {
+            ${classname}Service.update(${classname});
+
+        return Response.ok();
+    }
+
+
+    /**
+     * 删除
+     */
+    @PostMapping("/delete")
+    public Response delete(@RequestBody ${pk.attrType}[] ${pk.attrname}s) {
+            ${classname}Service.deleteBatch(${pk.attrname}s);
+
+        return Response.ok();
+    }
+
+}
